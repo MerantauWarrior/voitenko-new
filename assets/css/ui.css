@@ -1,0 +1,119 @@
+/*@font-face {*/
+/*    font-family: 'MyWebFont';*/
+/*    src: url('webfont.eot'); !* IE9 Compat Modes *!*/
+/*    src: url('webfont.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+/*    url('webfont.woff2') format('woff2'), !* Super Modern Browsers *!*/
+/*    url('webfont.woff') format('woff'), !* Pretty Modern Browsers *!*/
+/*    url('webfont.ttf')  format('truetype'), !* Safari, Android, iOS *!*/
+/*    url('webfont.svg#svgFontName') format('svg'); !* Legacy iOS *!*/
+/*}*/
+@font-face {
+    font-family: 'UniNeue-Bold';
+    src: url('../fonts/UniNeue-Bold.otf')  format('opentype');
+}
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'WorkSans-Medium';
+    src: url('../fonts/WorkSans-Medium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    src: url('../fonts/WorkSans-SemiBold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('../fonts/WorkSans-Bold.ttf')  format('truetype');
+}
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'WorkSans', sans-serif;
+    color: #1A2332;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*, *:after, *:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+main{
+    display: block;
+}
+table{
+    border-collapse: collapse;
+}
+button, input, textarea, a, div{
+    outline: none;
+}
+img, svg{
+    display: block;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+h1{
+    font-family: 'UniNeue-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+}
+h2{
+    font-weight: normal;
+    font-family: 'UniNeue-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+ul, ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"]{
+    display: none;
+}
+input::-webkit-input-placeholder {
+    color: #1062AA;
+}
+input::-moz-placeholder {
+    color: #1062AA;
+}
+input:-ms-input-placeholder {
+    color: #1062AA;
+}
+input:-moz-placeholder {
+    color: #1062AA;
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #004FD1;
+}
+.btn-regular{
+    width: 100%;
+    max-width: 250px;
+}
