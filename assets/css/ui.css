@@ -9,23 +9,23 @@
 /*}*/
 @font-face {
     font-family: 'UniNeue-Bold';
-    src: url('../fonts/UniNeue-Bold.otf')  format('opentype');
+    src: url('../fonts/UniNeue-Bold.otf') format('opentype');
 }
 @font-face {
     font-family: 'WorkSans';
-    src: url('../fonts/WorkSans-Regular.ttf')  format('truetype');
+    src: url('../fonts/WorkSans-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'WorkSans-Medium';
-    src: url('../fonts/WorkSans-Medium.ttf')  format('truetype');
+    src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: 'WorkSans-SemiBold';
-    src: url('../fonts/WorkSans-SemiBold.ttf')  format('truetype');
+    src: url('../fonts/WorkSans-SemiBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'WorkSans-Bold';
-    src: url('../fonts/WorkSans-Bold.ttf')  format('truetype');
+    src: url('../fonts/WorkSans-Bold.ttf') format('truetype');
 }
 html, body{
     width: 100%;
@@ -52,11 +52,21 @@ table{
 button, input, textarea, a, div{
     outline: none;
 }
+button, input, textarea{
+    padding: 0;
+    border: none;
+}
+button{
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
 img, svg{
     display: block;
     max-width: 100%;
 }
-a{
+a, svg, button{
     text-decoration: none;
     -webkit-transition: all 0.25s;
     -moz-transition: all 0.25s;
@@ -90,16 +100,41 @@ input[type="file"]{
     display: none;
 }
 input::-webkit-input-placeholder {
-    color: #1062AA;
+    color: #7E848C;
 }
 input::-moz-placeholder {
-    color: #1062AA;
+    color: #7E848C;
 }
 input:-ms-input-placeholder {
-    color: #1062AA;
+    color: #7E848C;
 }
 input:-moz-placeholder {
-    color: #1062AA;
+    color: #7E848C;
+}
+.inp, .txtarea{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid rgba(26, 35, 50, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1A2332;
+}
+.inp{
+    height: 58px;
+}
+.inp:focus{
+    border: 1px solid #004FD1;
+}
+.txtarea{
+    height: 116px;
+    padding: 20px;
+    font-family: 'WorkSans', sans-serif;
+    resize: none;
 }
 .btn{
     display: inline-flex;
@@ -113,7 +148,63 @@ input:-moz-placeholder {
     color: #FFFFFF;
     background-color: #004FD1;
 }
+.btn:hover{
+    box-shadow: 0 10px 40px rgba(0, 79, 209, 0.8);
+}
 .btn-regular{
     width: 100%;
     max-width: 250px;
+}
+.btn-filter{
+    width: 100%;
+    max-width: 165px;
+}
+.btn-blank{
+    border: 1px solid #004FD1;
+    background-color: #fff;
+    color: #004FD1;
+}
+.btn-blank:hover{
+    border: 1px solid #004FD1;
+    background-color: #004FD1;
+    color: #FFFFFF;
+}
+.label-checkbox{
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.label-checkbox:before,
+.label-checkbox:after{
+    content: "";
+    position: absolute;
+}
+.label-checkbox:before{
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #A2A4AB;
+    background-color: #FFFFFF;
+}
+.inp-checkbox:checked + .label-checkbox:before{
+    background-color: #004FD1;
+    border: 1px solid #004FD1;
+}
+.inp-checkbox:checked + .label-checkbox:after{
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.label-checkbox a{
+    padding-bottom: 2px;
+    color: #1A2332;
+    border-bottom: 1px dashed #1A2332;
 }

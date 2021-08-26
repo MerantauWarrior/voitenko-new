@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Car</title>
+  <link rel="stylesheet" href="assets/libs/slick/slick.css">
+  <link rel="stylesheet" href="assets/css/ui.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header-mobile">
+          <a href="#" class="header-mobile__logo"><img src="assets/img/general/logo-mobile.svg" alt="text"></a>
+          <div class="header-mobile__bar">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="header__inner">
+          <div class="header__half">
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-tel.svg" alt="Tel"></div>
+              <a href="tel:8 (044) 496 33 83" class="header-item__link">8 (044) 496 33 83</a>
+            </div>
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-tel.svg" alt="Tel"></div>
+              <a href="tel:8 (044) 496 33 84" class="header-item__link">8 (044) 496 33 84</a>
+            </div>
+          </div>
+          <div class="header__half">
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-time.svg" alt="Time"></div>
+              <a href="#" class="header-item__link">Графік роботи</a>
+            </div>
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-calendar.svg" alt="Date"></div>
+              <a href="tel:8 (044) 496 33 84" class="header-item__link">Запис на ТО</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="navigation">
+          <a href="#" class="navigation__logo"><img src="assets/img/general/logo.svg" alt="company name"></a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item has-submenu">
+                <a href="#" class="menu__link menu__city">
+                  <span>Ваше місто:&nbsp;</span>
+                  <span>Харків</span>
+                </a>
+                <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0H8L4.01878 4L0 0Z" fill=""/>
+                </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="menu__link">Харків</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link menu__link_active">Київ</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Одеса</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Дніпро</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Вінниця</a></li>
+                </ul>
+              </li>
+              <li class="menu__item has-submenu">
+                <a href="#" class="menu__link">
+                  <span>Усі послуги</span>
+                </a>
+                <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0H8L4.01878 4L0 0Z" fill=""/>
+                </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="menu__link">Автомобілі</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link menu__link_active">Фінансові послуги</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Trade-In</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">ТО та ремонт</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Запчастини на складі</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Корпоративним клієнтам</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a href="#" class="menu__link">Дилери</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Акції</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Новини</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header-help">
+        <div class="header-help__item">
+          <div class="header-help__text">Запис на тест-драйв</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-1.svg" alt="text"></div>
+        </div>
+        <div class="header-help__item">
+          <div class="header-help__text">Запис на сервіс</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-2.svg" alt="text"></div>
+        </div>
+        <div class="header-help__item">
+          <div class="header-help__text">Спеціальні пропозиції</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-3.svg" alt="text"></div>
+        </div>
+        <div class="header-help__item">
+          <div class="header-help__text">Зв’язатись з дилером</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-4.svg" alt="text"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page-head">
+      <div class="page-head__bg"><img
+          src="assets/img/car/attention-details-particle-view-modern-luxury-white-car-parked-indoors-daytime%201.jpg" alt="text"></div>
+      <div class="container">
+        <h1>Опис автомобіля</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Головна</a></li>
+          <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Каталог автомобілей</a></li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current">Skoda Superb 2.0 TDI Elegans</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="car">
+      <div class="container">
+        <h2>Skoda FabiaCombi 1,2 TSI</h2>
+        <div class="car__inner">
+          <div class="car-top">
+            <div class="car-top__title">Опис</div>
+            <div class="car-stock car-stock--in">В наявності</div>
+            <div class="car-top__price">157 662 <span>грн</span></div>
+          </div>
+          <div class="car-media">
+            <div class="car-media-big">
+              <div><img src="assets/img/car/1-big.jpg" alt="text"></div>
+              <div><img src="assets/img/car/1-big.jpg" alt="text"></div>
+              <div><img src="assets/img/car/1-big.jpg" alt="text"></div>
+              <div><img src="assets/img/car/1-big.jpg" alt="text"></div>
+              <div><img src="assets/img/car/1-big.jpg" alt="text"></div>
+            </div>
+            <div class="car-media-small">
+              <div><img src="assets/img/car/1.jpg" alt="text"></div>
+              <div><img src="assets/img/car/2.jpg" alt="text"></div>
+              <div><img src="assets/img/car/3.jpg" alt="text"></div>
+              <div><img src="assets/img/car/4.jpg" alt="text"></div>
+              <div>
+                <div class="car-media-small__video">
+                  <div class="car-media-small__video-btn">
+                    <svg width="9" height="11" viewBox="0 0 9 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.80859 5.76765L0.444957 10.5964L0.444958 0.938904L8.80859 5.76765Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <img src="assets/img/car/5.jpg" alt="text">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-info">
+            <div class="car-info__item">
+              <span>Рік випуску</span>
+              <span>2011</span>
+            </div>
+            <div class="car-info__item">
+              <span>виробник</span>
+              <a href="#">Skoda</a>
+            </div>
+            <div class="car-info__item">
+              <span>Пробіг</span>
+              <span>160000 км</span>
+            </div>
+            <div class="car-info__item">
+              <span>модифікація</span>
+              <span>1,2 TSI</span>
+            </div>
+            <div class="car-info__item">
+              <span>комплектація</span>
+              <span>Base</span>
+            </div>
+            <div class="car-info__item">
+              <span>покоління</span>
+              <span>5J</span>
+            </div>
+            <div class="car-info__item">
+              <span>двигун</span>
+              <span>Бензиновий, 1198 см3</span>
+            </div>
+            <div class="car-info__item">
+              <span>тип кпп</span>
+              <span>Механіка</span>
+            </div>
+            <div class="car-info__item">
+              <span>привід</span>
+              <span>Передній</span>
+            </div>
+            <div class="car-info__item">
+              <span>кузов</span>
+              <span>Універсал</span>
+            </div>
+            <div class="car-info__item">
+              <span>колір кузова</span>
+              <span>Синій</span>
+            </div>
+            <div class="car-info__item">
+              <span>колір салона</span>
+              <span>Чорний</span>
+            </div>
+            <div class="car-info__item">
+              <span>матеріал</span>
+              <span>Тканина</span>
+            </div>
+            <div class="car-info__item">
+              <span>птс</span>
+              <span>Оригінал</span>
+            </div>
+          </div>
+          <div class="car-btns">
+            <a href="#" class="car-btn">
+              <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.15 21H1.84996C1.62453 21 1.40834 20.9122 1.24895 20.7559C1.08955 20.5996 1 20.3877 1 20.1667V1.83333C1 1.61232 1.08955 1.40036 1.24895 1.24408C1.40834 1.0878 1.62453 1 1.84996 1H12.0503L18 6.83333V20.1667C18 20.2761 17.978 20.3845 17.9353 20.4856C17.8926 20.5867 17.83 20.6785 17.751 20.7559C17.6721 20.8333 17.5784 20.8947 17.4753 20.9366C17.3722 20.9784 17.2616 21 17.15 21Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12.0508 1V6.83333H18.0013" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6.52344 13.918L9.49829 16.8346L12.4731 13.918" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.5 10.168V16.8346" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>завантажити прайс-лист</span>
+            </a>
+            <a href="#" class="car-btn">
+              <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 9.14453H26" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24.2143 16.3789V19.0932C24.2143 19.3331 24.1202 19.5633 23.9528 19.733C23.7853 19.9026 23.5582 19.998 23.3214 19.998H20.6429C20.4061 19.998 20.179 19.9026 20.0115 19.733C19.8441 19.5633 19.75 19.3331 19.75 19.0932V16.3789" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.24944 16.3789V19.0932C7.24944 19.3331 7.15537 19.5633 6.98793 19.733C6.82049 19.9026 6.59339 19.998 6.35659 19.998H3.67801C3.44121 19.998 3.21411 19.9026 3.04667 19.733C2.87923 19.5633 2.78516 19.3331 2.78516 19.0932V16.3789" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6.35938 12.7619H8.14509" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18.8594 12.7619H20.6451" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24.2137 9.14286L20.878 1.5373C20.8078 1.37737 20.6934 1.24149 20.5486 1.14613C20.4038 1.05076 20.2348 1 20.0621 1H6.93683C6.76412 1 6.59512 1.05076 6.4503 1.14613C6.30548 1.24149 6.19107 1.37737 6.12093 1.5373L2.78516 9.14286V16.381H24.2137V9.14286Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>замовити тест-драйв</span>
+            </a>
+            <a href="#" class="car-btn">
+              <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.26907 17.6274L2.50652 20.7854C2.3729 20.8975 2.20998 20.9692 2.03693 20.9921C1.86388 21.015 1.68788 20.988 1.52964 20.9144C1.3714 20.8408 1.23749 20.7237 1.14367 20.5767C1.04984 20.4297 1 20.2591 1 20.0848V1.91521C1 1.67248 1.09658 1.43969 1.26849 1.26806C1.44039 1.09642 1.67355 1 1.91667 1H22.0833C22.3264 1 22.5596 1.09642 22.7315 1.26806C22.9034 1.43969 23 1.67248 23 1.91521V16.5585C23 16.8013 22.9034 17.034 22.7315 17.2057C22.5596 17.3773 22.3264 17.4737 22.0833 17.4737H6.69146L6.26907 17.6274Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.33203 7.40649H15.6654" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.33203 11.0673H15.6654" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>залишити заявку</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="car-tabs">
+      <div class="container">
+        <div class="car-tabs-controls">
+          <a href="#tab-1" class="car-tabs-controls__link car-tabs-controls__link_active">
+            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.72727 10.8823L1 10.8823" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.0004 10.8823L12.6367 10.8823" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3.90909 3.11748L1 3.11743" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.0021 3.11743L6.82031 3.11748" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.81641 1V5.23547" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.6367 13V8.76477" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>комплектація</span>
+          </a>
+          <a href="#tab-2" class="car-tabs-controls__link">
+            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.08984 0.999756H16.9989" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.09375 7H17.0023" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.09375 12.9995H17.0023" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 0.999756H2.45455" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 7H2.45399" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 12.9995H2.45399" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>характеристики</span>
+          </a>
+          <a href="#tab-3" class="car-tabs-controls__link">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.40002 0.999512H1V7.39966H7.40002V0.999512Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.0016 0.999512H10.6016V7.39966H17.0016V0.999512Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7.40002 10.6011H1V17.0011H7.40002V10.6011Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.0016 10.6011H10.6016V17.0012H17.0016V10.6011Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>опції</span>
+          </a>
+          <a href="#tab-4" class="car-tabs-controls__link">
+            <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.99768 9.61389C8.32318 9.61389 9.39771 8.51185 9.39771 7.1524C9.39771 5.79296 8.32318 4.69092 6.99768 4.69092C5.67218 4.69092 4.59766 5.79296 4.59766 7.1524C4.59766 8.51185 5.67218 9.61389 6.99768 9.61389Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M13 7.1534C13 12.6919 7 16.9996 7 16.9996C7 16.9996 1 12.6919 1 7.1534C1 5.52129 1.63214 3.95602 2.75736 2.80195C3.88258 1.64787 5.4087 0.999512 7 0.999512C8.5913 0.999512 10.1174 1.64787 11.2426 2.80195C12.3679 3.95602 13 5.52129 13 7.1534V7.1534Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>салон дилера</span>
+          </a>
+        </div>
+        <div class="car-tabs-content">
+          <div class="car-tab car-tab_active" id="tab-1">
+            <div class="car-equipment">
+              <div class="car-equipment__block">
+                <div class="car-tab__title">Інтер’єр</div>
+                <ul class="car-equipment__list">
+                  <li class="car-equipment__item">Салон тканина <span>TR619</span></li>
+                  <li class="car-equipment__item">Складне заднє сидіння <span>TR619</span></li>
+                  <li class="car-equipment__item">Темний салон <span>TR624</span></li>
+                </ul>
+              </div>
+              <div class="car-equipment__block">
+                <div class="car-tab__title">Аудіо і мультимедіа</div>
+                <ul class="car-equipment__list">
+                  <li class="car-equipment__item">AUX</li>
+                  <li class="car-equipment__item">Штатна аудіопідготовка <span>TR407</span></li>
+                  <li class="car-equipment__item">Штатна аудіосистема з CD <span>TR410</span></li>
+                </ul>
+              </div>
+              <div class="car-equipment__block">
+                <div class="car-tab__title">Освітлення</div>
+                <ul class="car-equipment__list">
+                  <li class="car-equipment__item">Галогенові фари <span>TR502</span></li>
+                  <li class="car-equipment__item">Протитуманні фари <span>TR508</span></li>
+                </ul>
+              </div>
+              <div class="car-equipment__block">
+                <div class="car-tab__title">Комфорт</div>
+                <ul class="car-equipment__list">
+                  <li class="car-equipment__item">Кондиціонер <span>TR312</span></li>
+                  <li class="car-equipment__item">Обігрів дзеркал <span>TR506</span></li>
+                  <li class="car-equipment__item">Обігрів сидінь <span>TR314</span></li>
+                  <li class="car-equipment__item">Підігрів передніх сидінь <span>TR615</span></li>
+                  <li class="car-equipment__item">Регулювання сидінь водія по висоті <span>TR320</span></li>
+                  <li class="car-equipment__item">Підсилювач керма <span>TR338</span></li>
+                  <li class="car-equipment__item">Регулювання керма по висоті та вильоту <span>TR324</span></li>
+                  <li class="car-equipment__item">Сидіння водія з ручним регулюванням <span>TR327</span></li>
+                  <li class="car-equipment__item">Сидіння пасажира з ручним регулюванням <span>TR330</span></li>
+                  <li class="car-equipment__item">Електропривод дзеркал <span>TR516</span></li>
+                  <li class="car-equipment__item">Електросклопідйомники передні <span>TR343</span></li>
+                </ul>
+              </div>
+              <div class="car-equipment__block">
+                <div class="car-tab__title">Безпека</div>
+                <ul class="car-equipment__list">
+                  <li class="car-equipment__item">ABS <span>TR100</span></li>
+                  <li class="car-equipment__item">Isofix/LATCH <span>TR102</span></li>
+                  <li class="car-equipment__item">Подушка безпеки водія <span>TR109</span></li>
+                  <li class="car-equipment__item">Подушка безпеки пасажира <span>TR111</span></li>
+                  <li class="car-equipment__item">Центральний замок <span>TR203</span></li>
+                  <li class="car-equipment__item">Штатний імобілайзер <span>TR205</span></li>
+                </ul>
+              </div>
+              <div class="car-equipment__block">
+                <div class="car-tab__title">Диски</div>
+                <ul class="car-equipment__list">
+                  <li class="car-equipment__item">Диски 14” <span>TR705</span></li>
+                  <li class="car-equipment__item">Сталеві диски <span>TR725</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="car-tab " id="tab-2">
+            <div class="car-chars">
+              <div class="car-chars__block">
+                <div class="car-tab__title">Кузов</div>
+                <div class="car-chars__lists">
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Тип кузова:</span>
+                      <span>універсал</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Кількість місць:</span>
+                      <span>5</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Довжина:</span>
+                      <span>4247 мм</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Ширина:</span>
+                      <span>1642 мм</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Висота:</span>
+                      <span>1498 мм</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Колісна база:</span>
+                      <span>2451 мм</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Колія передня:</span>
+                      <span>1433 мм</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Колія задня:</span>
+                      <span>1426 мм</span>
+                    </li>
+                  </ul>
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Споряджена маса:</span>
+                      <span>1061 кг</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Дорожній просвіт:</span>
+                      <span>164 мм</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Обсяг багажника максимальний:</span>
+                      <span>480 л</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Обсяг багажника мінімальний:</span>
+                      <span>250 л</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Допустима маса:</span>
+                      <span>1591 кг</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Вантажопідйомність:</span>
+                      <span>540 кг</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Дозволена маса автопоїзда:</span>
+                      <span>1433 мм</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="car-chars__block">
+                <div class="car-tab__title">Трансмісіія і керування</div>
+                <div class="car-chars__lists">
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Тип КПП:</span>
+                      <span>Механічна</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Кількість передач:</span>
+                      <span>6</span>
+                    </li>
+                  </ul>
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Привід:</span>
+                      <span>Передній</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Діаметр розвороту:</span>
+                      <span>10 м</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="car-chars__block">
+                <div class="car-tab__title">Підвіска і гальма</div>
+                <div class="car-chars__lists">
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Передні гальма:</span>
+                      <span>Дискові</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Задні гальма:</span>
+                      <span>Дискові</span>
+                    </li>
+                  </ul>
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Передня підвіска:</span>
+                      <span>McPherson</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="car-chars__block">
+                <div class="car-tab__title">Двигун</div>
+                <div class="car-chars__lists">
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Тип двигуна:</span>
+                      <span>Бензиновий</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Об’єм двигуна:</span>
+                      <span>1197 см3</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Потужність двигуна:</span>
+                      <span>180 к.с.</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Оберти максимальної потужності:</span>
+                      <span>4800 об/хв</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Максимальний крутний момент:</span>
+                      <span>160 Н/хв</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Тип вприскування:</span>
+                      <span>Безпосереднє вприскування</span>
+                    </li>
+                  </ul>
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Розташування циліндрів:</span>
+                      <span>Рядне</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Кількість циліндрів:</span>
+                      <span>4</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Кількість клапанів на циліндр:</span>
+                      <span>4</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Тип надува:</span>
+                      <span>Турбо</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Оберти максимального крутного моменту:</span>
+                      <span>від 1600 до 2800 об/хв</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="car-chars__block">
+                <div class="car-tab__title">Експлуатаційні показники</div>
+                <div class="car-chars__lists">
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Марка палива:</span>
+                      <span>А-95</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Максимальна швіидкість:</span>
+                      <span>178 км/год</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Розгін до 100 км/год:</span>
+                      <span>11,8</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Об’єм паливного баку:</span>
+                      <span>45 л</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Витрати палива по місту на 100 км:</span>
+                      <span>8 л</span>
+                    </li>
+                  </ul>
+                  <ul class="car-chars__list">
+                    <li class="car-chars__item">
+                      <span>Витрати палива по трасі на 100 км:</span>
+                      <span>6 л</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Витрати палива в змішаному циклі на 100 км:</span>
+                      <span>7 л</span>
+                    </li>
+                    <li class="car-chars__item">
+                      <span>Запас ходу:</span>
+                      <span>від 682 до 1023 км</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-tab " id="tab-3">
+            <div class="car-options">
+              <div class="car-options__info">
+                <div class="car-tab__title">Кольори кузову</div>
+                <div class="car-options__title">Синій</div>
+              </div>
+              <div class="car-options__select">
+                <a href="#" class="car-options__color car-options__color_active">
+                  <span class="car-options__color-box" style="background-color: #0D3BBE;"></span>
+                </a>
+                <a href="#" class="car-options__color">
+                  <span class="car-options__color-box" style="background-color: #CB0100;"></span>
+                </a>
+                <a href="#" class="car-options__color">
+                  <span class="car-options__color-box" style="background-color: #060706; border: 1px solid rgba(255, 255, 255, 0.15);"></span>
+                </a>
+                <a href="#" class="car-options__color">
+                  <span class="car-options__color-box" style="background-color: #AEC8D7;"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="car-tab " id="tab-4">
+            <div class="car-contacts">
+              <div class="car-contacts__info">
+                <div class="contacts-page__block">
+                  <div class="car-tab__title">Адреса автосалону та сервісного центру</div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.49609 11.771C10.1529 11.771 11.4961 10.3934 11.4961 8.69411C11.4961 6.99477 10.1529 5.61719 8.49609 5.61719C6.83924 5.61719 5.49609 6.99477 5.49609 8.69411C5.49609 10.3934 6.83924 11.771 8.49609 11.771Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 8.69231C16 15.6154 8.5 21 8.5 21C8.5 21 1 15.6154 1 8.69231C1 6.65218 1.79018 4.69561 3.1967 3.25302C4.60322 1.81044 6.51088 1 8.5 1C10.4891 1 12.3968 1.81044 13.8033 3.25302C15.2098 4.69561 16 6.65218 16 8.69231V8.69231Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <span>61000 Харків, проспект Перемоги, 67</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts-page__block">
+                  <div class="car-tab__title">Телефон</div>
+                  <div class="car-contacts__subtitle">Відділ продажу</div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.28549 8.55338C5.96317 9.93886 7.08623 11.0568 8.47479 11.7282C8.57638 11.7763 8.68876 11.7972 8.80086 11.7887C8.91296 11.7802 9.02093 11.7427 9.11412 11.6798L11.1587 10.3165C11.2491 10.2562 11.3531 10.2194 11.4614 10.2094C11.5696 10.1995 11.6786 10.2167 11.7785 10.2595L15.6034 11.8988C15.7334 11.954 15.8418 12.0499 15.9125 12.1721C15.9832 12.2943 16.0122 12.4362 15.9953 12.5763C15.8744 13.5224 15.4128 14.3919 14.697 15.0221C13.9812 15.6523 13.0602 15.9999 12.1065 16C9.16085 16 6.33588 14.8299 4.25301 12.747C2.17014 10.6641 1 7.83915 1 4.89353C1.00005 3.93983 1.34772 3.01884 1.97793 2.30301C2.60813 1.58719 3.47764 1.12561 4.42365 1.00472C4.5638 0.987757 4.70566 1.0168 4.82787 1.08748C4.95008 1.15815 5.046 1.26663 5.1012 1.39657L6.7419 5.22486C6.78433 5.32388 6.80163 5.43186 6.79223 5.53918C6.78284 5.6465 6.74705 5.74984 6.68805 5.83998L5.32944 7.91589C5.2676 8.00927 5.23105 8.1171 5.22334 8.22883C5.21564 8.34057 5.23705 8.45239 5.28549 8.55338V8.55338Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <a href="tel:8 (044) 496 33 83">8 (044) 496 33 83</a>
+                    </div>
+                  </div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.28549 8.55338C5.96317 9.93886 7.08623 11.0568 8.47479 11.7282C8.57638 11.7763 8.68876 11.7972 8.80086 11.7887C8.91296 11.7802 9.02093 11.7427 9.11412 11.6798L11.1587 10.3165C11.2491 10.2562 11.3531 10.2194 11.4614 10.2094C11.5696 10.1995 11.6786 10.2167 11.7785 10.2595L15.6034 11.8988C15.7334 11.954 15.8418 12.0499 15.9125 12.1721C15.9832 12.2943 16.0122 12.4362 15.9953 12.5763C15.8744 13.5224 15.4128 14.3919 14.697 15.0221C13.9812 15.6523 13.0602 15.9999 12.1065 16C9.16085 16 6.33588 14.8299 4.25301 12.747C2.17014 10.6641 1 7.83915 1 4.89353C1.00005 3.93983 1.34772 3.01884 1.97793 2.30301C2.60813 1.58719 3.47764 1.12561 4.42365 1.00472C4.5638 0.987757 4.70566 1.0168 4.82787 1.08748C4.95008 1.15815 5.046 1.26663 5.1012 1.39657L6.7419 5.22486C6.78433 5.32388 6.80163 5.43186 6.79223 5.53918C6.78284 5.6465 6.74705 5.74984 6.68805 5.83998L5.32944 7.91589C5.2676 8.00927 5.23105 8.1171 5.22334 8.22883C5.21564 8.34057 5.23705 8.45239 5.28549 8.55338V8.55338Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <a href="tel:8 (044) 496 33 84">8 (044) 496 33 84</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts-page__block">
+                  <div class="car-contacts__subtitle">Сервісний відділ</div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.28549 8.55338C5.96317 9.93886 7.08623 11.0568 8.47479 11.7282C8.57638 11.7763 8.68876 11.7972 8.80086 11.7887C8.91296 11.7802 9.02093 11.7427 9.11412 11.6798L11.1587 10.3165C11.2491 10.2562 11.3531 10.2194 11.4614 10.2094C11.5696 10.1995 11.6786 10.2167 11.7785 10.2595L15.6034 11.8988C15.7334 11.954 15.8418 12.0499 15.9125 12.1721C15.9832 12.2943 16.0122 12.4362 15.9953 12.5763C15.8744 13.5224 15.4128 14.3919 14.697 15.0221C13.9812 15.6523 13.0602 15.9999 12.1065 16C9.16085 16 6.33588 14.8299 4.25301 12.747C2.17014 10.6641 1 7.83915 1 4.89353C1.00005 3.93983 1.34772 3.01884 1.97793 2.30301C2.60813 1.58719 3.47764 1.12561 4.42365 1.00472C4.5638 0.987757 4.70566 1.0168 4.82787 1.08748C4.95008 1.15815 5.046 1.26663 5.1012 1.39657L6.7419 5.22486C6.78433 5.32388 6.80163 5.43186 6.79223 5.53918C6.78284 5.6465 6.74705 5.74984 6.68805 5.83998L5.32944 7.91589C5.2676 8.00927 5.23105 8.1171 5.22334 8.22883C5.21564 8.34057 5.23705 8.45239 5.28549 8.55338V8.55338Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <a href="tel:8 (044) 496 33 83">8 (044) 496 33 83</a>
+                    </div>
+                  </div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.28549 8.55338C5.96317 9.93886 7.08623 11.0568 8.47479 11.7282C8.57638 11.7763 8.68876 11.7972 8.80086 11.7887C8.91296 11.7802 9.02093 11.7427 9.11412 11.6798L11.1587 10.3165C11.2491 10.2562 11.3531 10.2194 11.4614 10.2094C11.5696 10.1995 11.6786 10.2167 11.7785 10.2595L15.6034 11.8988C15.7334 11.954 15.8418 12.0499 15.9125 12.1721C15.9832 12.2943 16.0122 12.4362 15.9953 12.5763C15.8744 13.5224 15.4128 14.3919 14.697 15.0221C13.9812 15.6523 13.0602 15.9999 12.1065 16C9.16085 16 6.33588 14.8299 4.25301 12.747C2.17014 10.6641 1 7.83915 1 4.89353C1.00005 3.93983 1.34772 3.01884 1.97793 2.30301C2.60813 1.58719 3.47764 1.12561 4.42365 1.00472C4.5638 0.987757 4.70566 1.0168 4.82787 1.08748C4.95008 1.15815 5.046 1.26663 5.1012 1.39657L6.7419 5.22486C6.78433 5.32388 6.80163 5.43186 6.79223 5.53918C6.78284 5.6465 6.74705 5.74984 6.68805 5.83998L5.32944 7.91589C5.2676 8.00927 5.23105 8.1171 5.22334 8.22883C5.21564 8.34057 5.23705 8.45239 5.28549 8.55338V8.55338Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <a href="tel:8 (044) 496 33 84">8 (044) 496 33 84</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts-page__block">
+                  <div class="car-tab__title">Графік роботи:</div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.5 16C12.6421 16 16 12.6421 16 8.5C16 4.35786 12.6421 1 8.5 1C4.35786 1 1 4.35786 1 8.5C1 12.6421 4.35786 16 8.5 16Z" stroke="#7E848C" stroke-miterlimit="10"/>
+                        <path d="M8.5 4.125V8.5H12.875" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <span>Пн - Пт: 09:00 - 19:00</span>
+                    </div>
+                  </div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <span>Сб: 09:00 - 15:00</span>
+                    </div>
+                  </div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <span>Нд: Вихідний</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts-page__block">
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.3309 2.59618C13.934 2.22829 12.3463 1.03972 8.80232 1.01142C8.80232 1.01142 4.63461 0.756729 2.59329 2.65278C1.45922 3.84134 1.06229 5.511 1.00559 7.63344C0.97724 9.72758 0.920536 13.6612 4.63461 14.7365V16.3779C4.63461 16.3779 4.60626 17.0288 5.03154 17.1703C5.54187 17.3401 5.85374 16.8307 6.33572 16.293C6.61923 16.01 6.98781 15.5572 7.24297 15.2176C9.79463 15.444 11.7225 14.9346 11.9494 14.8497C12.4597 14.6799 15.3516 14.3121 15.8335 10.3502C16.3439 6.30338 15.6351 3.75645 14.3309 2.59618Z" stroke="#7E848C"/>
+                        <path d="M12.0634 10.5766C12.0634 10.5766 11.5814 10.1804 11.3546 10.0106C11.1278 9.84079 10.7876 9.6144 10.5891 9.5012C10.2489 9.3031 9.88031 9.4163 9.73855 9.6144L9.42668 10.0106C9.25657 10.2087 9.02976 10.1804 8.97306 10.1521C8.51943 10.0389 8.03745 9.7559 7.55547 9.2748C7.04514 8.79371 6.76163 8.28432 6.64822 7.77493V7.74663C6.61987 7.52023 6.64822 7.43533 6.73327 7.29383H6.76163C6.96009 7.09574 7.35701 6.86934 7.41371 6.64294C7.55547 6.24675 6.90338 5.45436 6.81833 5.31286C6.81833 5.31286 6.33635 4.69027 6.16624 4.57707C5.99613 4.43557 5.71261 4.35067 5.40075 4.52047H5.37239C4.5502 5.08646 4.26668 5.39776 4.32338 5.87885L4.35174 6.07695C4.77701 7.37873 5.57086 8.79371 6.76163 10.0389C7.9524 11.2558 9.22822 11.9916 10.504 12.501C10.8443 12.6142 11.1845 12.5293 11.5247 12.218C11.7799 11.9633 12.0067 11.7086 12.1484 11.4256C12.3469 11.0577 12.2902 10.7747 12.0634 10.5766Z" stroke="#7E848C"/>
+                        <path d="M10.5267 7.25501C10.47 7.25501 10.4417 7.22671 10.4417 7.17013C10.4133 6.83061 10.3282 6.57597 10.1581 6.40621C9.98803 6.23646 9.76121 6.15158 9.42099 6.12328C9.36429 6.12328 9.33594 6.0667 9.33594 6.01011C9.33594 5.95353 9.39264 5.92523 9.44934 5.92523C9.81792 5.95353 10.1014 6.0667 10.2999 6.26475C10.4984 6.4628 10.6118 6.77402 10.6118 7.17013C10.6401 7.22671 10.5834 7.25501 10.5267 7.25501Z" fill="#1A2332" stroke="#7E848C" stroke-width="0.4"/>
+                        <path d="M11.4621 7.59398C11.4054 7.59398 11.377 7.53738 11.377 7.50907C11.4054 6.85811 11.2069 6.32036 10.81 5.86752C10.6115 5.6411 10.3847 5.47128 10.1012 5.35807C9.8177 5.24486 9.50584 5.15995 9.16562 5.13165C9.10892 5.13165 9.08057 5.07505 9.08057 5.01844C9.08057 4.96184 9.13727 4.93353 9.19397 4.93353C9.95946 4.99014 10.5548 5.24486 10.9518 5.72601C11.377 6.20715 11.5755 6.80151 11.5755 7.50907C11.5755 7.53738 11.5188 7.59398 11.4621 7.59398Z" fill="#1A2332" stroke="#7E848C" stroke-width="0.4"/>
+                        <path d="M12.4291 7.96301C12.3724 7.96301 12.344 7.90641 12.344 7.8781C12.344 7.31205 12.259 6.77429 12.0889 6.32145C11.9188 5.8686 11.6636 5.47236 11.3517 5.16103C11.0115 4.82139 10.6429 4.59497 10.246 4.42515C9.82072 4.25534 9.36709 4.17043 8.8851 4.17043C8.8284 4.17043 8.80005 4.11382 8.80005 4.08552C8.80005 4.05722 8.85675 4.00061 8.8851 4.00061C9.90577 4.00061 10.7847 4.36855 11.4935 5.04782C11.8337 5.38745 12.1172 5.81199 12.2873 6.29314C12.4574 6.77429 12.5425 7.31205 12.5708 7.90641C12.5141 7.93471 12.4858 7.96301 12.4291 7.96301Z" fill="#1A2332" stroke="#7E848C" stroke-width="0.4"/>
+                      </svg>
+                      <a href="tel:8 (098) 364 33 83">8 (098) 364 33 83</a>
+                    </div>
+                  </div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.58799 6.11859V4.82613C6.58799 4.63211 6.59871 4.48183 6.62051 4.37566C6.64222 4.26934 6.69163 4.16478 6.7683 4.06155C6.84487 3.95838 6.96884 3.88716 7.14004 3.8477C7.31147 3.80816 7.53928 3.78846 7.82369 3.78846H9.37632V1.20361H6.89416C5.45792 1.20361 4.4264 1.48725 3.79943 2.05453C3.17255 2.62193 2.85914 3.45771 2.85914 4.56216V6.11856H1V8.7036H2.85902V16.2036H6.58795V8.70363H9.06996L9.39803 6.11859H6.58799V6.11859Z" stroke="#7E848C"/>
+                      </svg>
+                      <a href="#" target="_blank">facebook.com/autotrading</a>
+                    </div>
+                  </div>
+                  <div class="contacts-page__row">
+                    <div class="contacts-page__item">
+                      <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.46812 8.25708L12.1932 14.0568C12.271 14.1239 12.3653 14.17 12.4668 14.1907C12.5682 14.2113 12.6735 14.2058 12.7721 14.1746C12.8707 14.1435 12.9594 14.0877 13.0295 14.0128C13.0995 13.938 13.1485 13.8466 13.1717 13.7475L15.9849 1.71734C16.0092 1.61333 16.0041 1.50478 15.9701 1.4034C15.9362 1.30202 15.8746 1.21165 15.7921 1.14202C15.7096 1.07239 15.6092 1.02615 15.5019 1.00828C15.3945 0.990411 15.2842 1.00159 15.1829 1.04061L1.37955 6.35487C1.25925 6.40118 1.15749 6.48443 1.08949 6.59215C1.0215 6.69986 0.990921 6.82627 1.00234 6.95243C1.01376 7.0786 1.06656 7.19776 1.15284 7.29206C1.23913 7.38637 1.35425 7.45076 1.48099 7.4756L5.46812 8.25708Z" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.46729 8.25745L15.6474 1.05188" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.82595 11.1529L6.4887 13.4435C6.40502 13.5255 6.29841 13.5813 6.18235 13.6039C6.06628 13.6266 5.94598 13.615 5.83665 13.5706C5.72732 13.5262 5.63387 13.451 5.56812 13.3546C5.50238 13.2582 5.46729 13.1448 5.46729 13.0288V8.25623" stroke="#7E848C" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <a href="https://tele.click/autotrading">@autotrading</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="car-contacts__map" id="map"><img src="assets/img/car/map.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="seo-text seo-text--white">
+      <div class="seo-text__shadow"></div>
+      <div class="container">
+        <div class="seo-text__content">
+          <h5>Lorem ipsum dolor sit amet</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et ac urna quam ridiculus consequat massa
+            adipiscing. Ultrices et suspendisse mauris, quam tortor magna est urna ullamcorper. Volutpat pellentesque
+            est, egestas sed hendrerit. Eget non, ullamcorper bibendum id dui sed amet amet. Ultricies vitae eget
+            scelerisque blandit nulla sapien, a vel, dolor. Amet vestibulum
+            <br><br>
+            viverra eu amet. Cras sit sed imperdiet metus, semper congue. Purus feugiat sit suspendisse cursus risus
+            auctor dignissim justo. Orci sollicitudin ac in amet turpis praesent facilisi urna enim. Lacus elementum
+            euismod nunc ipsum pulvinar at. Lorem sed velit.</p>
+          <h6>Lorem ipsum dolor sit amet</h6>
+          <p>Condimentum mauris. Ornare quis vivamus phasellus id. Ornare imperdiet habitant vestibulum nunc. Imperdiet
+            turpis sagittis ultricies in id mi mi. Enim vel vitae praesent id at diam purus ultricies faucibus. Volutpat
+            lacinia posuere enim, amet interdum nec tincidunt. Faucibus a pulvinar eget accumsan pulvinar donec sed
+            molestie nibh. Feugiat eu, leo netus velit aliquet nunc, odio.</p>
+          <p>Condimentum mauris. Ornare quis vivamus phasellus id:</p>
+          <ul>
+            <li>volutpat lacinia posuere enim;</li>
+            <li>volutpat lacinia posuere enim;</li>
+            <li>volutpat lacinia posuere enim;</li>
+            <li>volutpat lacinia posuere enim;</li>
+            <li>volutpat lacinia posuere enim;</li>
+          </ul>
+          <p>Imperdiet turpis sagittis ultricies in id mi mi. Enim vel vitae praesent id at diam purus ultricies
+            faucibus. Volutpat lacinia posuere enim, amet interdum nec tincidunt. Faucibus a pulvinar eget accumsan
+            pulvinar donec sed molestie nibh. Feugiat eu, leo netus velit aliquet nunc, odio.</p>
+        </div>
+        <div class="seo-text__btn">
+          <a href="#" class="btn btn-regular">читати далі</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__block">
+          <h5 class="footer__heading">АВТОМОБІЛІ</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Новини</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Акції</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Дилери</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Київ</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Вінниця</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Львів</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Харків</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Донецьк</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Дніпропетровськ</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Одеса</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Послуги</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Страхування</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лізинг</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Trade-In</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Сервис</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Гарантійне</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">обслуговування</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Адреса СТО</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Автотрейдинг</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Новини</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Акції</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Про компанію</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Вакансії</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакти</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Контакти</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__contacts">Киев, проспект Перемоги, 67</li>
+            <li class="footer-menu__contacts"><a href="tel:044 496 33 83">044 496 33 83</a></li>
+          </ul>
+          <div class="footer-socials">
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-fb.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-insta.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-viber.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-telegram.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-yt.svg"
+                                                                          alt="fb"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">© 2021 Офіційна дилерська мережа «Автотрейдінг-АГ» Всі права захищені. Автотрейдинг Атолл
+        Груп входить до Групи компаній Атолл Холдинг
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/libs/slick/slick.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
