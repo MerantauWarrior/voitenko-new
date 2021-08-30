@@ -113,7 +113,7 @@
   </header>
   <main>
     <section class="page-head">
-      <div class="page-head__bg"><img src="assets/img/video/blue-sport-sedan-parked-yard%201.jpg" alt="text"></div>
+      <div class="page-head__bg" style="background: transparent url('./assets/img/video/blue-sport-sedan-parked-yard%201.jpg') center center no-repeat;background-size:cover;"></div>
       <div class="container">
         <h1>Наше відео</h1>
         <ul class="breadcrumbs">
@@ -125,116 +125,137 @@
     <section class="video">
       <div class="container">
         <div class="catalogue__inner">
-          <form method="get" action="" class="filter">
-            <div class="filter__title">Фільтри</div>
-            <div class="filter__categories">
-              <div class="filter-category filter-category_opened">
-                <div class="filter-category__top">
-                  <div class="filter-category__title">бренд</div>
-                  <div class="filter-category__arrow">
-                    <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 1.15625L8.5 7.36536L1 1.15625" stroke="#A2A4AB" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
-                <ul class="filter-category__list">
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q1" class="inp-checkbox" checked>
-                    <label for="q1" class="label-checkbox">Skoda</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q2" class="inp-checkbox">
-                    <label for="q2" class="label-checkbox">Hyundai</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q3" class="inp-checkbox">
-                    <label for="q3" class="label-checkbox">Renault</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q4" class="inp-checkbox">
-                    <label for="q4" class="label-checkbox">Seat</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q5" class="inp-checkbox">
-                    <label for="q5" class="label-checkbox">Ford</label>
-                  </li>
-                </ul>
-              </div>
-              <div class="filter-category">
-                <div class="filter-category__top">
-                  <div class="filter-category__title">тип кузова</div>
-                  <div class="filter-category__arrow">
-                    <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 1.15625L8.5 7.36536L1 1.15625" stroke="#A2A4AB" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
-                <ul class="filter-category__list">
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q12" class="inp-checkbox" checked>
-                    <label for="q12" class="label-checkbox">Skoda</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q22" class="inp-checkbox">
-                    <label for="q22" class="label-checkbox">Hyundai</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q32" class="inp-checkbox">
-                    <label for="q32" class="label-checkbox">Renault</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q42" class="inp-checkbox">
-                    <label for="q42" class="label-checkbox">Seat</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q52" class="inp-checkbox">
-                    <label for="q52" class="label-checkbox">Ford</label>
-                  </li>
-                </ul>
-              </div>
-              <div class="filter-category">
-                <div class="filter-category__top">
-                  <div class="filter-category__title">модель</div>
-                  <div class="filter-category__arrow">
-                    <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 1.15625L8.5 7.36536L1 1.15625" stroke="#A2A4AB" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
-                <ul class="filter-category__list">
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q123" class="inp-checkbox" checked>
-                    <label for="q123" class="label-checkbox">Skoda</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q223" class="inp-checkbox">
-                    <label for="q223" class="label-checkbox">Hyundai</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q323" class="inp-checkbox">
-                    <label for="q323" class="label-checkbox">Renault</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q423" class="inp-checkbox">
-                    <label for="q423" class="label-checkbox">Seat</label>
-                  </li>
-                  <li class="filter-category__list-item">
-                    <input type="checkbox" name="q1" id="q523" class="inp-checkbox">
-                    <label for="q523" class="label-checkbox">Ford</label>
-                  </li>
-                </ul>
-              </div>
-              <div class="filter-category__single">
-                <input type="checkbox" name="qw" id="qw" class="inp-checkbox" checked>
-                <label for="qw" class="label-checkbox">Авто в наявності</label>
-              </div>
+          <div class="fitler-wrapper">
+            <div class="fitler-mobile-close">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 1L1 17" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 17L1 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
             </div>
-            <div class="filter__btns">
-              <button class="btn btn-filter" type="submit">показати</button>
-              <button class="btn btn-blank btn-filter" type="reset">очистити</button>
-            </div>
-          </form>
+            <form method="get" action="" class="filter">
+              <div class="filter__title">Фільтри</div>
+              <div class="filter__categories">
+                <div class="filter-category filter-category_opened">
+                  <div class="filter-category__top">
+                    <div class="filter-category__title">бренд</div>
+                    <div class="filter-category__arrow">
+                      <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 1.15625L8.5 7.36536L1 1.15625" stroke="#A2A4AB" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul class="filter-category__list">
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q1" class="inp-checkbox" checked>
+                      <label for="q1" class="label-checkbox">Skoda</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q2" class="inp-checkbox">
+                      <label for="q2" class="label-checkbox">Hyundai</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q3" class="inp-checkbox">
+                      <label for="q3" class="label-checkbox">Renault</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q4" class="inp-checkbox">
+                      <label for="q4" class="label-checkbox">Seat</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q5" class="inp-checkbox">
+                      <label for="q5" class="label-checkbox">Ford</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="filter-category">
+                  <div class="filter-category__top">
+                    <div class="filter-category__title">тип кузова</div>
+                    <div class="filter-category__arrow">
+                      <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 1.15625L8.5 7.36536L1 1.15625" stroke="#A2A4AB" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul class="filter-category__list">
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q12" class="inp-checkbox" checked>
+                      <label for="q12" class="label-checkbox">Skoda</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q22" class="inp-checkbox">
+                      <label for="q22" class="label-checkbox">Hyundai</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q32" class="inp-checkbox">
+                      <label for="q32" class="label-checkbox">Renault</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q42" class="inp-checkbox">
+                      <label for="q42" class="label-checkbox">Seat</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q52" class="inp-checkbox">
+                      <label for="q52" class="label-checkbox">Ford</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="filter-category">
+                  <div class="filter-category__top">
+                    <div class="filter-category__title">модель</div>
+                    <div class="filter-category__arrow">
+                      <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 1.15625L8.5 7.36536L1 1.15625" stroke="#A2A4AB" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul class="filter-category__list">
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q123" class="inp-checkbox" checked>
+                      <label for="q123" class="label-checkbox">Skoda</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q223" class="inp-checkbox">
+                      <label for="q223" class="label-checkbox">Hyundai</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q323" class="inp-checkbox">
+                      <label for="q323" class="label-checkbox">Renault</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q423" class="inp-checkbox">
+                      <label for="q423" class="label-checkbox">Seat</label>
+                    </li>
+                    <li class="filter-category__list-item">
+                      <input type="checkbox" name="q1" id="q523" class="inp-checkbox">
+                      <label for="q523" class="label-checkbox">Ford</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="filter-category__single">
+                  <input type="checkbox" name="qw" id="qw" class="inp-checkbox" checked>
+                  <label for="qw" class="label-checkbox">Авто в наявності</label>
+                </div>
+              </div>
+              <div class="filter__btns">
+                <button class="btn btn-filter" type="submit">показати</button>
+                <button class="btn btn-blank btn-filter" type="reset">очистити</button>
+              </div>
+            </form>
+          </div>
           <div class="filter__content">
+            <div class="filter-mobile-open btn btn-regular">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path d="M2 3.25926C2 3.25926 4.57143 2 11 2C17.4286 2 20 3.25926 20 3.25926L12.9286 11.4444V17.1111L9.07143 19V11.4444L2 3.25926Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span>Фільтри</span>
+            </div>
             <div class="video-sort">
               <a href="#" class="video-sort__item video-sort__item_active">Всі авто</a>
               <a href="#" class="video-sort__item">В наявності</a>

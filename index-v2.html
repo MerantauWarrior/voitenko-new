@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home v2</title>
+  <link rel="stylesheet" href="assets/libs/slick/slick.css">
+  <link rel="stylesheet" href="assets/css/ui.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header-mobile">
+          <a href="#" class="header-mobile__logo"><img src="assets/img/general/logo-mobile.svg" alt="text"></a>
+          <div class="header-mobile__bar">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="header__inner">
+          <div class="header__half">
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-tel.svg" alt="Tel"></div>
+              <a href="tel:8 (044) 496 33 83" class="header-item__link">8 (044) 496 33 83</a>
+            </div>
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-tel.svg" alt="Tel"></div>
+              <a href="tel:8 (044) 496 33 84" class="header-item__link">8 (044) 496 33 84</a>
+            </div>
+          </div>
+          <div class="header__half">
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-time.svg" alt="Time"></div>
+              <a href="#" class="header-item__link">Графік роботи</a>
+            </div>
+            <div class="header-item">
+              <div class="header-item__icon"><img src="assets/img/general/icon-calendar.svg" alt="Date"></div>
+              <a href="tel:8 (044) 496 33 84" class="header-item__link">Запис на ТО</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="navigation">
+          <a href="#" class="navigation__logo"><img src="assets/img/general/logo.svg" alt="company name"></a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item has-submenu">
+                <a href="#" class="menu__link menu__city">
+                  <span>Ваше місто:&nbsp;</span>
+                  <span>Харків</span>
+                </a>
+                <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0H8L4.01878 4L0 0Z" fill=""/>
+                </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="menu__link">Харків</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link menu__link_active">Київ</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Одеса</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Дніпро</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Вінниця</a></li>
+                </ul>
+              </li>
+              <li class="menu__item has-submenu">
+                <a href="#" class="menu__link">
+                  <span>Усі послуги</span>
+                </a>
+                <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0H8L4.01878 4L0 0Z" fill=""/>
+                </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="menu__link">Автомобілі</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link menu__link_active">Фінансові послуги</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Trade-In</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">ТО та ремонт</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Запчастини на складі</a></li>
+                  <li class="submenu__item"><a href="#" class="menu__link">Корпоративним клієнтам</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a href="#" class="menu__link">Дилери</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Акції</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Новини</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header-help">
+        <div class="header-help__item">
+          <div class="header-help__text">Запис на тест-драйв</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-1.svg" alt="text"></div>
+        </div>
+        <div class="header-help__item">
+          <div class="header-help__text">Запис на сервіс</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-2.svg" alt="text"></div>
+        </div>
+        <div class="header-help__item">
+          <div class="header-help__text">Спеціальні пропозиції</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-3.svg" alt="text"></div>
+        </div>
+        <div class="header-help__item">
+          <div class="header-help__text">Зв’язатись з дилером</div>
+          <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-4.svg" alt="text"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="home-top">
+      <div class="container">
+        <div class="home-top__content">
+          <div class="home-top__line"></div>
+          <h1>Сезон персональних пропозицій</h1>
+          <a href="#" class="btn home-top__btn">дізнатися більше</a>
+        </div>
+      </div>
+    </section>
+    <section class="home-feedbacks">
+      <div class="container">
+        <h2>Що наші клієнти говорять про нас</h2>
+        <div class="home-feedbacks-slider__wrapper">
+          <div class="home-feedbacks-slider__prev">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13 7H1L7 13M7 1L3.57143 4.42857" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M13 7H1L7 13M7 1L3.57143 4.42857" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="home-feedbacks-slider__next">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 7H13L7 13M7 1L10.4286 4.42857" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 7H13L7 13M7 1L10.4286 4.42857" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="home-feedbacks-slider">
+            <div class="home-feedbacks-slide">
+              <div class="home-feedbacks-slide__quote">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M10.8398 43.3223V34.875L17.9688 19.4453H24.2676L21.6309 34.8262V43.3223H10.8398ZM25.6348 43.3223V34.875L32.7637 19.4453H39.0625L36.4258 34.8262V43.3223H25.6348Z" fill="#F8F8F8"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>Работают аккуратно и качественно, все соответствует предварительным договоренностям. Для меня не очень
+                удобное расположение, но компенсируется адекватными ценами. В крайний раз еще и омывайку подарили).</p>
+              <h5>Дмитрий (Клиент сервисного центра)</h5>
+              <div class="home-feedbacks-slide__date">03.02.2021</div>
+            </div>
+            <div class="home-feedbacks-slide">
+              <div class="home-feedbacks-slide__quote">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M10.8398 43.3223V34.875L17.9688 19.4453H24.2676L21.6309 34.8262V43.3223H10.8398ZM25.6348 43.3223V34.875L32.7637 19.4453H39.0625L36.4258 34.8262V43.3223H25.6348Z" fill="#F8F8F8"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>Работают аккуратно и качественно, все соответствует предварительным договоренностям. Для меня не очень
+                удобное расположение, но компенсируется адекватными ценами. В крайний раз еще и омывайку подарили).</p>
+              <h5>Дмитрий (Клиент сервисного центра)</h5>
+              <div class="home-feedbacks-slide__date">03.02.2021</div>
+            </div>
+            <div class="home-feedbacks-slide">
+              <div class="home-feedbacks-slide__quote">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M10.8398 43.3223V34.875L17.9688 19.4453H24.2676L21.6309 34.8262V43.3223H10.8398ZM25.6348 43.3223V34.875L32.7637 19.4453H39.0625L36.4258 34.8262V43.3223H25.6348Z" fill="#F8F8F8"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>Работают аккуратно и качественно, все соответствует предварительным договоренностям. Для меня не очень
+                удобное расположение, но компенсируется адекватными ценами. В крайний раз еще и омывайку подарили).</p>
+              <h5>Дмитрий (Клиент сервисного центра)</h5>
+              <div class="home-feedbacks-slide__date">03.02.2021</div>
+            </div>
+            <div class="home-feedbacks-slide">
+              <div class="home-feedbacks-slide__quote">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M10.8398 43.3223V34.875L17.9688 19.4453H24.2676L21.6309 34.8262V43.3223H10.8398ZM25.6348 43.3223V34.875L32.7637 19.4453H39.0625L36.4258 34.8262V43.3223H25.6348Z" fill="#F8F8F8"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>Работают аккуратно и качественно, все соответствует предварительным договоренностям. Для меня не очень
+                удобное расположение, но компенсируется адекватными ценами. В крайний раз еще и омывайку подарили).</p>
+              <h5>Дмитрий (Клиент сервисного центра)</h5>
+              <div class="home-feedbacks-slide__date">03.02.2021</div>
+            </div>
+            <div class="home-feedbacks-slide">
+              <div class="home-feedbacks-slide__quote">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M10.8398 43.3223V34.875L17.9688 19.4453H24.2676L21.6309 34.8262V43.3223H10.8398ZM25.6348 43.3223V34.875L32.7637 19.4453H39.0625L36.4258 34.8262V43.3223H25.6348Z" fill="#F8F8F8"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>Работают аккуратно и качественно, все соответствует предварительным договоренностям. Для меня не очень
+                удобное расположение, но компенсируется адекватными ценами. В крайний раз еще и омывайку подарили).</p>
+              <h5>Дмитрий (Клиент сервисного центра)</h5>
+              <div class="home-feedbacks-slide__date">03.02.2021</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="home-services-v2">
+      <div class="container">
+        <h2>Послуги</h2>
+        <div class="cards home-services-v2__items">
+          <a href="#" class="card home-services-v2-item">
+            <h3 class="home-services-v2-item__title"><span>Автомобілі</span></h3>
+            <p class="home-services-v2-item__text">Допоможемо Вам зробити ідеальний вибір.</p>
+            <p class="home-services-v2-item__text">Додаткове обладнання та аксесуари.</p>
+            <p class="home-services-v2-item__text">Персоналізація авто.</p>
+          </a>
+          <a href="#" class="card home-services-v2-item">
+            <h3 class="home-services-v2-item__title"><span>Фінансові послуги</span></h3>
+            <p class="home-services-v2-item__text">Робимо мрію більш доступною.</p>
+            <p class="home-services-v2-item__text">Підберемо для Вас вигідні умови кредиту, лізингу та
+              автострахування.</p>
+          </a>
+          <a href="#" class="card home-services-v2-item">
+            <h3 class="home-services-v2-item__title"><span>Trade-IN</span></h3>
+            <p class="home-services-v2-item__text">Нове авто взамін старого.</p>
+            <p class="home-services-v2-item__text">Або продаж Вашого б/в автомобіля комісійному майданчику.</p>
+          </a>
+          <a href="#" class="card home-services-v2-item">
+            <h3 class="home-services-v2-item__title"><span>ТО та ремонт</span></h3>
+            <p class="home-services-v2-item__text">Сертифіковані сервіси з найкращими фахівцями.</p>
+            <p class="home-services-v2-item__text">Гарантійне обслуговування, ТО та ремонт будь-якого рівня
+              складності.</p>
+          </a>
+          <a href="#" class="card home-services-v2-item">
+            <h3 class="home-services-v2-item__title"><span>Відновлювальний ремонт</span></h3>
+            <p class="home-services-v2-item__text">Висока якість робіт та лако- фарбових матеріалів.</p>
+            <p class="home-services-v2-item__text">Пряме урегулювання зі страховими компаніями.</p>
+          </a>
+          <a href="#" class="card home-services-v2-item">
+            <h3 class="home-services-v2-item__title"><span>Запчастини на складі</span></h3>
+            <p class="home-services-v2-item__text">Всі позиції в наявності.</p>
+            <p class="home-services-v2-item__text">Перевірена якість.</p>
+            <p class="home-services-v2-item__text">Доставка.</p>
+          </a>
+          <a href="#" class="card home-services-v2-item home-services-v2-item--smp">
+            <h3 class="home-services-v2-item__title"><span>Корпоративним клієнтам</span></h3>
+            <p class="home-services-v2-item__text">Персональний менеджер.</p>
+            <p class="home-services-v2-item__text">Трансформація авто під потреби бізнесу.</p>
+            <p class="home-services-v2-item__text">Програма лояльності.</p>
+            <p class="home-services-v2-item__text">Управління корпоративним парком.</p>
+            <p class="home-services-v2-item__text">Зелений коридор на сервісі.</p>
+            <p class="home-services-v2-item__text">Шинний готель.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="home-shares home-shares--v2">
+      <div class="container">
+        <h2>Акції</h2>
+        <p class="home-shares__subtitle">Автотрейдінг пропонує своїм клієнтам найкращі умови для купівлі автомобіля.</p>
+        <div class="cards home-shares__items">
+          <a href="#" class="card share">
+            <div class="card__img"><img src="assets/img/home/shares-1.jpg" alt="text"></div>
+            <h3 class="card__title">Mercedes-Benz GLS-Class 450</h3>
+            <p class="card__description">2017, 55 тис. км, Бензин, 3 л, Автомат</p>
+          </a>
+          <a href="#" class="card share">
+            <div class="card__img"><img src="assets/img/home/shares-2.jpg" alt="text"></div>
+            <h3 class="card__title">Пробний тест-драйв</h3>
+            <p class="card__description">Також всі інші відомі генератори</p>
+          </a>
+          <a href="#" class="card share">
+            <div class="card__img"><img src="assets/img/home/shares-3.jpg" alt="text"></div>
+            <h3 class="card__title">Mercedes-Benz GLS-Class 450</h3>
+            <p class="card__description">2017, 55 тис. км, Бензин, 3 л, Автомат</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="home-news">
+      <h2>Новини</h2>
+      <div class="home-news__items">
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-1.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">Створіть свій ідеальний автомобіль</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-2.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">НОВиЙ MAZDA CX-9</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-3.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">КРЕДИТ ДЛЯ ЛОЯЛЬНиХ КЛієНТіВ</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-4.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">ТЕХНОЛОГії і досконалість</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-1.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">Створіть свій ідеальний автомобіль</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-2.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">НОВиЙ MAZDA CX-9</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-3.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">КРЕДИТ ДЛЯ ЛОЯЛЬНиХ КЛієНТіВ</a>
+          </div>
+        </div>
+        <div>
+          <div class="home-news-item">
+            <div class="home-news-item__img"><img src="assets/img/home/news-4.jpg" alt="text"></div>
+            <div class="home-news-item__date">03/02/2021</div>
+            <a href="#" class="home-news-item__title">ТЕХНОЛОГії і досконалість</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="home-contacts">
+      <h2>Контакти</h2>
+      <div id="homeMap"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__block">
+          <h5 class="footer__heading">АВТОМОБІЛІ</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Новини</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Акції</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Дилери</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Київ</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Вінниця</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Львів</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Харків</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Донецьк</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Дніпропетровськ</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Одеса</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Послуги</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Страхування</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лізинг</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Trade-In</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Сервис</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Гарантійне</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">обслуговування</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Адреса СТО</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Автотрейдинг</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Новини</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Акції</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Про компанію</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Вакансії</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакти</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h5 class="footer__heading">Контакти</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu__contacts">Киев, проспект Перемоги, 67</li>
+            <li class="footer-menu__contacts"><a href="tel:044 496 33 83">044 496 33 83</a></li>
+          </ul>
+          <div class="footer-socials">
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-fb.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-insta.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-viber.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-telegram.svg"
+                                                                          alt="fb"></a>
+            <a href="#" class="footer-socials__item" target="_blank"><img src="assets/img/general/footer-yt.svg"
+                                                                          alt="fb"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">© 2021 Офіційна дилерська мережа «Автотрейдінг-АГ» Всі права захищені. Автотрейдинг Атолл
+        Груп входить до Групи компаній Атолл Холдинг
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/libs/slick/slick.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3K9tsBeefmxtsgCLIbT4Ty_zi2XKPsOQ&callback=initMap&libraries=&v=weekly"
+    async></script>
+<script>
+  function initMap() {
+    // Styles a map in night mode.
+    const map = new google.maps.Map(document.getElementById("homeMap"), {
+      center: {lat: 40.674, lng: -73.945},
+      zoom: 12,
+      styles: [
+        {elementType: "geometry", stylers: [{color: "#242f3e"}]},
+        {elementType: "labels.text.stroke", stylers: [{color: "#242f3e"}]},
+        {elementType: "labels.text.fill", stylers: [{color: "#746855"}]},
+        {
+          featureType: "administrative.locality",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#d59563"}],
+        },
+        {
+          featureType: "poi",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#d59563"}],
+        },
+        {
+          featureType: "poi.park",
+          elementType: "geometry",
+          stylers: [{color: "#263c3f"}],
+        },
+        {
+          featureType: "poi.park",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#6b9a76"}],
+        },
+        {
+          featureType: "road",
+          elementType: "geometry",
+          stylers: [{color: "#38414e"}],
+        },
+        {
+          featureType: "road",
+          elementType: "geometry.stroke",
+          stylers: [{color: "#212a37"}],
+        },
+        {
+          featureType: "road",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#9ca5b3"}],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry",
+          stylers: [{color: "#746855"}],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry.stroke",
+          stylers: [{color: "#1f2835"}],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#f3d19c"}],
+        },
+        {
+          featureType: "transit",
+          elementType: "geometry",
+          stylers: [{color: "#2f3948"}],
+        },
+        {
+          featureType: "transit.station",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#d59563"}],
+        },
+        {
+          featureType: "water",
+          elementType: "geometry",
+          stylers: [{color: "#17263c"}],
+        },
+        {
+          featureType: "water",
+          elementType: "labels.text.fill",
+          stylers: [{color: "#515c6d"}],
+        },
+        {
+          featureType: "water",
+          elementType: "labels.text.stroke",
+          stylers: [{color: "#17263c"}],
+        },
+      ],
+    });
+  }
+</script>
+</body>
+</html>

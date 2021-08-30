@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper home-page">
   <header class="header">
     <div class="header__top">
       <div class="container">
@@ -93,22 +93,22 @@
         </div>
       </div>
       <div class="header-help">
-        <div class="header-help__item">
+        <a href="#m-Test" class="header-help__item">
           <div class="header-help__text">Запис на тест-драйв</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-1.svg" alt="text"></div>
-        </div>
-        <div class="header-help__item">
+        </a>
+        <a href="#m-service" class="header-help__item">
           <div class="header-help__text">Запис на сервіс</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-2.svg" alt="text"></div>
-        </div>
-        <div class="header-help__item">
+        </a>
+        <a href="#m-callback" class="header-help__item">
           <div class="header-help__text">Спеціальні пропозиції</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-3.svg" alt="text"></div>
-        </div>
-        <div class="header-help__item">
+        </a>
+        <a href="#m-feedback" class="header-help__item">
           <div class="header-help__text">Зв’язатись з дилером</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-4.svg" alt="text"></div>
-        </div>
+        </a>
       </div>
     </div>
   </header>
@@ -124,25 +124,45 @@
     </section>
     <section class="home-brands">
       <div class="home-brands-item">
-        <div class="home-brands-item__icon"><img src="assets/img/home/brand-1.svg" alt="brand name"></div>
+        <div class="home-brands-item__icon">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/img/home/brand-1-mob.svg">
+            <img src="assets/img/home/brand-1.svg" alt="brand name">
+          </picture>
+        </div>
         <h3 class="home-brands-item__title">Skoda</h3>
         <p class="home-brands-item__description">Lorem ipsum dolor
           sit amet, consectetur adipiscing elit. </p>
       </div>
       <div class="home-brands-item">
-        <div class="home-brands-item__icon"><img src="assets/img/home/brand-2.svg" alt="brand name"></div>
+        <div class="home-brands-item__icon">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/img/home/brand-2-mob.svg">
+            <img src="assets/img/home/brand-2.svg" alt="brand name">
+          </picture>
+        </div>
         <h3 class="home-brands-item__title">Hyundai</h3>
         <p class="home-brands-item__description">Lorem ipsum dolor
           sit amet, consectetur adipiscing elit. Orci in sed id consectetur. Suspendisse</p>
       </div>
       <div class="home-brands-item">
-        <div class="home-brands-item__icon"><img src="assets/img/home/brand-3.svg" alt="brand name"></div>
+        <div class="home-brands-item__icon">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/img/home/brand-3-mob.svg">
+            <img src="assets/img/home/brand-3.svg" alt="brand name">
+          </picture>
+        </div>
         <h3 class="home-brands-item__title">Seat</h3>
         <p class="home-brands-item__description">Lorem ipsum dolor
           sit amet, consectetur adipiscing elit. Orci in sed id consectetur. Suspendisse</p>
       </div>
       <div class="home-brands-item">
-        <div class="home-brands-item__icon"><img src="assets/img/home/brand-4.svg" alt="brand name"></div>
+        <div class="home-brands-item__icon">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/img/home/brand-4-mob.svg">
+            <img src="assets/img/home/brand-4.svg" alt="brand name">
+          </picture>
+        </div>
         <h3 class="home-brands-item__title">Ford</h3>
         <p class="home-brands-item__description">Lorem ipsum dolor
           sit amet, consectetur adipiscing elit. Orci in sed id consectetur.</p>
@@ -190,7 +210,7 @@
           <a href="#" class="card model">
             <div class="card__img"><img src="assets/img/home/models-6.jpg" alt="text"></div>
             <div class="card__content">
-              <h3 class="card__title">Hyundai Sonata  2,4 FW</h3>
+              <h3 class="card__title">Hyundai Sonata 2,4 FW</h3>
               <p class="card__description">2015, 214 тис. км, Бензин, 2.4 л, Механіка</p>
             </div>
           </a>
@@ -427,7 +447,7 @@
       <div class="seo-text__shadow"></div>
       <div class="container">
         <div class="seo-text__content">
-          <h5>Lorem ipsum dolor sit amet</h5>
+          <h5>Lorem ipsum dolor sit amet</h5><br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et ac urna quam ridiculus consequat massa
             adipiscing. Ultrices et suspendisse mauris, quam tortor magna est urna ullamcorper. Volutpat pellentesque
             est, egestas sed hendrerit. Eget non, ullamcorper bibendum id dui sed amet amet. Ultricies vitae eget
@@ -532,6 +552,274 @@
       </div>
     </div>
   </footer>
+</div>
+<div class="modal">
+  <div class="modal-window" id="m-feedback">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Написати відгук</div>
+      <div class="modal-window__text-1">Поділіться думкою про нашу роботу або задайте нам будь-яке питання, що Вас
+        цікавить в поле коментар
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="q3" id="q3" class="inp-modal-window" value="Шевченко Андрій Євгенійович" required>
+          <label for="q3" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="q2" id="q2" class="inp-modal-window" required>
+          <label for="q2" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="q1" id="q1" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="q1" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <textarea name="q4" id="q4" class="txt-modal-window" required></textarea>
+          <label for="q4" class="label-modal-window">Текст повідомлення</label>
+        </div>
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="q0" id="q0" class="inp-checkbox" required>
+        <label for="q0" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати повідомлення</button>
+    </form>
+  </div>
+  <div class="modal-window" id="m-callback">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Зворотній зв’язок</div>
+      <div class="modal-window__text-1">Задайте нам будь-яке питання, що Вас цікавить в поле текст повідомлення і ми відповімо
+        найближчим часом
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="q3q" id="q3q" class="inp-modal-window" value="Шевченко Андрій Євгенійович" required>
+          <label for="q3q" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="q2q" id="q2q" class="inp-modal-window" required>
+          <label for="q2q" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="q1q" id="q1q" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="q1q" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="q45" id="q45" required>
+              <option selected></option>
+              <option value="1">Харків</option>
+              <option value="2">Київ</option>
+              <option value="3">Одеса</option>
+              <option value="4">Дніпро</option>
+              <option value="5">Вінниця</option>
+            </select>
+            <label for="q45" class="label-modal-window">Місто*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <textarea name="q4q" id="q4q" class="txt-modal-window" required></textarea>
+          <label for="q4" class="label-modal-window">Текст повідомлення</label>
+        </div>
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="q0q" id="q0q" class="inp-checkbox" required>
+        <label for="q0q" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати повідомлення</button>
+    </form>
+  </div>
+  <div class="modal-window" id="m-service">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Записатися на ТО і сервіс онлайн</div>
+      <div class="modal-window__text-1">Ви бажаєте записатися на сервіс?<br>
+        Просто введіть свої дані, і ми якнайшвидше надамо відповідь.
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="e22" id="e22" class="inp-modal-window" required>
+          <label for="e22" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="e11" id="e11" class="inp-modal-window" required>
+          <label for="e11" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="e2" id="e2" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="e2" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="e3" id="e3" required>
+              <option selected></option>
+              <option value="1">Харків</option>
+              <option value="2">Київ</option>
+              <option value="3">Одеса</option>
+              <option value="4">Дніпро</option>
+              <option value="5">Вінниця</option>
+            </select>
+            <label for="e3" class="label-modal-window">Місто*</label>
+          </div>
+        </div>
+        <div class="modal-window__bold-3">Будь ласка, вкажіть дані Вашого авто:</div>
+        <div class="modal-window-field">
+          <input type="text" name="e33" id="e33" class="inp-modal-window" required>
+          <label for="e33" class="label-modal-window">Державний номер автомобіля*</label>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="e3q" id="e3q" required>
+              <option selected></option>
+              <option value="1">Бренд 1</option>
+              <option value="2">Бренд 2</option>
+              <option value="3">Бренд 3</option>
+              <option value="4">Бренд 4</option>
+              <option value="5">Бренд 5</option>
+            </select>
+            <label for="e3q" class="label-modal-window">Бренд*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <input type="text" name="n5" id="n5" class="inp-modal-window" required>
+          <label for="n5" class="label-modal-window">Модель*</label>
+        </div>
+
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="e1" id="e1" class="inp-checkbox" required>
+        <label for="e1" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати заявку</button>
+    </form>
+  </div>
+  <div class="modal-window" id="m-Test">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Записатися на тест-драйв онлайн</div>
+      <div class="modal-window__text-1">Ви бажаєте записатися на тест-драйв?<br>
+        Просто введіть свої дані, і ми якнайшвидше надамо відповідь.
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="s1" id="s1" class="inp-modal-window" required>
+          <label for="s1" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="s2" id="s2" class="inp-modal-window" required>
+          <label for="s2" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="s3" id="s3" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="s3" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="w5" id="w5" required>
+              <option selected></option>
+              <option value="1">Харків</option>
+              <option value="2">Київ</option>
+              <option value="3">Одеса</option>
+              <option value="4">Дніпро</option>
+              <option value="5">Вінниця</option>
+            </select>
+            <label for="w5" class="label-modal-window">Місто*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="ww5" id="ww5" required>
+              <option selected></option>
+              <option value="1">Фаворит-Авто, вул. Гольдбергівська, 044</option>
+              <option value="2">Фаворит-Авто, вул. Гольдбергівська, 144</option>
+              <option value="3">Фаворит-Авто, вул. Гольдбергівська, 444</option>
+              <option value="4">Фаворит-Авто, вул. Гольдбергівська, 4</option>
+              <option value="5">Фаворит-Авто, вул. Гольдбергівська, 2544</option>
+            </select>
+            <label for="ww5" class="label-modal-window">Адреса*</label>
+          </div>
+        </div>
+        <div class="modal-window__bold-3">Будь ласка, вкажіть дані Вашого авто:</div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="r2" id="r2" required>
+              <option selected></option>
+              <option value="1">Бренд 1</option>
+              <option value="2">Бренд 2</option>
+              <option value="3">Бренд 3</option>
+              <option value="4">Бренд 4</option>
+              <option value="5">Бренд 5</option>
+            </select>
+            <label for="r2" class="label-modal-window">Бренд*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <input type="text" name="r3" id="r3" class="inp-modal-window" required>
+          <label for="r3" class="label-modal-window">Модель*</label>
+        </div>
+
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="r4" id="r4" class="inp-checkbox" required>
+        <label for="r4" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати заявку</button>
+    </form>
+  </div>
 </div>
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="assets/libs/slick/slick.min.js"></script>

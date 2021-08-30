@@ -188,11 +188,20 @@ input:-moz-placeholder {
     border: 1px solid #A2A4AB;
     background-color: #FFFFFF;
 }
-.inp-checkbox:checked + .label-checkbox:before{
+.inp-checkbox:not(:disabled):checked + .label-checkbox:before{
     background-color: #004FD1;
     border: 1px solid #004FD1;
 }
-.inp-checkbox:checked + .label-checkbox:after{
+.inp-checkbox:disabled + .label-checkbox{
+    color: #939598;
+    opacity: 0.45;
+}
+.inp-checkbox:disabled + .label-checkbox:before{
+    background-color: #FFFFFF;
+    border: 1px solid #939598;
+    opacity: 0.45;
+}
+.inp-checkbox:not(:disabled):checked + .label-checkbox:after{
     left: 8px;
     top: 3px;
     width: 5px;
