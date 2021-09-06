@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media.css">
 </head>
-<body>
+<body class="ovh">
 <div class="wrapper home-page">
   <header class="header">
     <div class="header__top">
@@ -553,7 +553,34 @@
     </div>
   </footer>
 </div>
-<div class="modal">
+<div class="modal" style="display:block;">
+  <div class="modal-window modal-window--city" id="m-city" style="display:block;">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Ваш город - <span>Москва</span>?</div>
+      <div class="modal-window-field-city">
+        <button class="modal-window-field-city__btn" type="submit">Да</button>
+        <div class="custom-select">
+          <select name="c1" id="c1" required>
+            <option selected></option>
+            <option value="1">Харків</option>
+            <option value="2">Київ</option>
+            <option value="3">Одеса</option>
+            <option value="4">Дніпро</option>
+            <option value="5">Вінниця</option>
+          </select>
+          <label for="c1" class="label-modal-window">Выбрать другой город</label>
+        </div>
+      </div>
+    </form>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae cupiditate dolores fuga obcaecati odit
+      provident.</p>
+  </div>
   <div class="modal-window" id="m-feedback">
     <div class="modal-window__close">
       <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -577,7 +604,8 @@
           <label for="q2" class="label-modal-window">Телефон*</label>
         </div>
         <div class="modal-window-field">
-          <input type="email" name="q1" id="q1" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <input type="email" name="q1" id="q1" class="inp-modal-window inp-modal-window__error" value="E-mail.com"
+                 required>
           <label for="q1" class="label-modal-window">E-mail*</label>
           <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
         </div>
@@ -590,7 +618,8 @@
       <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
       <div class="modal-window-agreement">
         <input type="checkbox" name="q0" id="q0" class="inp-checkbox" required>
-        <label for="q0" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+        <label for="q0" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних
+          даних</a></label>
       </div>
       <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
         Вашого запиту
@@ -608,7 +637,8 @@
     </div>
     <form action="" method="get" class="modal-window__form">
       <div class="modal-window__title">Зворотній зв’язок</div>
-      <div class="modal-window__text-1">Задайте нам будь-яке питання, що Вас цікавить в поле текст повідомлення і ми відповімо
+      <div class="modal-window__text-1">Задайте нам будь-яке питання, що Вас цікавить в поле текст повідомлення і ми
+        відповімо
         найближчим часом
       </div>
       <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
@@ -622,7 +652,8 @@
           <label for="q2q" class="label-modal-window">Телефон*</label>
         </div>
         <div class="modal-window-field">
-          <input type="email" name="q1q" id="q1q" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <input type="email" name="q1q" id="q1q" class="inp-modal-window inp-modal-window__error" value="E-mail.com"
+                 required>
           <label for="q1q" class="label-modal-window">E-mail*</label>
           <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
         </div>
@@ -680,7 +711,8 @@
           <label for="e11" class="label-modal-window">Телефон*</label>
         </div>
         <div class="modal-window-field">
-          <input type="email" name="e2" id="e2" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <input type="email" name="e2" id="e2" class="inp-modal-window inp-modal-window__error" value="E-mail.com"
+                 required>
           <label for="e2" class="label-modal-window">E-mail*</label>
           <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
         </div>
@@ -725,7 +757,8 @@
       <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
       <div class="modal-window-agreement">
         <input type="checkbox" name="e1" id="e1" class="inp-checkbox" required>
-        <label for="e1" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+        <label for="e1" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних
+          даних</a></label>
       </div>
       <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
         Вашого запиту
@@ -757,7 +790,8 @@
           <label for="s2" class="label-modal-window">Телефон*</label>
         </div>
         <div class="modal-window-field">
-          <input type="email" name="s3" id="s3" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <input type="email" name="s3" id="s3" class="inp-modal-window inp-modal-window__error" value="E-mail.com"
+                 required>
           <label for="s3" class="label-modal-window">E-mail*</label>
           <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
         </div>
@@ -811,7 +845,8 @@
       <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
       <div class="modal-window-agreement">
         <input type="checkbox" name="r4" id="r4" class="inp-checkbox" required>
-        <label for="r4" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+        <label for="r4" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних
+          даних</a></label>
       </div>
       <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
         Вашого запиту

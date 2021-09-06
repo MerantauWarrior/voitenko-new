@@ -2544,6 +2544,7 @@
 }
 .custom-select {
     position: relative;
+    text-align: left;
 }
 .custom-select select {
     display: none; /*hide original SELECT element:*/
@@ -2600,4 +2601,37 @@
 }
 .select-items div:hover, .same-as-selected {
     background-color: #E8F0FC;
+}
+.modal-window--city{
+    max-width: 450px;
+    margin: 50px 0;
+    padding: 30px;
+    text-align: center;
+}
+.modal-window--city .modal-window__close{
+    top: 15px;
+    right: 15px;
+}
+.modal-window-field-city{
+    display: flex;
+    margin-bottom: 20px;
+}
+.modal-window-field-city .custom-select{
+    flex: 1;
+}
+.modal-window-field-city__btn{
+    display: block;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid rgba(26, 35, 50, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: 'WorkSans', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1A2332;
+}
+.modal-window__title span{
+    color: #004FD1;
 }
