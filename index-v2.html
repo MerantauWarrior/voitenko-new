@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper home-page home-page--v2">
   <header class="header">
     <div class="header__top">
       <div class="container">
@@ -93,32 +93,108 @@
         </div>
       </div>
       <div class="header-help">
-        <div class="header-help__item">
+        <a href="#m-Test" class="header-help__item">
           <div class="header-help__text">Запис на тест-драйв</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-1.svg" alt="text"></div>
-        </div>
-        <div class="header-help__item">
+        </a>
+        <a href="#m-service" class="header-help__item">
           <div class="header-help__text">Запис на сервіс</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-2.svg" alt="text"></div>
-        </div>
-        <div class="header-help__item">
+        </a>
+        <a href="#m-callback" class="header-help__item">
           <div class="header-help__text">Спеціальні пропозиції</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-3.svg" alt="text"></div>
-        </div>
-        <div class="header-help__item">
+        </a>
+        <a href="#m-feedback" class="header-help__item">
           <div class="header-help__text">Зв’язатись з дилером</div>
           <div class="header-help__icon"><img src="assets/img/home/icon-sidehelp-4.svg" alt="text"></div>
-        </div>
+        </a>
       </div>
     </div>
   </header>
   <main>
-    <section class="home-top">
+    <section class="home-top home-top--v2">
       <div class="container">
         <div class="home-top__content">
           <div class="home-top__line"></div>
-          <h1>Сезон персональних пропозицій</h1>
-          <a href="#" class="btn home-top__btn">дізнатися більше</a>
+          <h1>Підберемо автомобіль
+            відповідно Вашим
+            потребам та бажанням</h1>
+          <form action="" method="get" class="home-top-form">
+            <div class="home-top-form__title">обери своє авто</div>
+            <div class="home-top-form__row">
+              <label for="s11" class="home-top-form__label">Марка</label>
+              <select name="s11" id="s11" class="home-top-form__select" required>
+                <option value="0" selected>Вибрати марку</option>
+                <option value="1">Марка 2</option>
+                <option value="2">Марка 3</option>
+              </select>
+            </div>
+            <div class="home-top-form__row">
+              <label for="s22" class="home-top-form__label">Модель</label>
+              <select name="s22" id="s22" class="home-top-form__select" required>
+                <option value="0" selected>Вибрати модель</option>
+                <option value="1">Марка 2</option>
+                <option value="2">Марка 3</option>
+              </select>
+            </div>
+            <button class="home-top-form__btn" type="submit">пошук</button>
+          </form>
+          <a href="#" class="btn home-top__btn">Записатись на тест-драйв</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="home-bands-v2">
+          <a href="#" class="home-bands-v2-item"><img src="assets/img/home-v2/Skoda.svg" alt="text"></a>
+          <a href="#" class="home-bands-v2-item"><img src="assets/img/home-v2/Hyundai.svg" alt="text"></a>
+          <a href="#" class="home-bands-v2-item"><img src="assets/img/home-v2/Reno.svg" alt="text"></a>
+          <a href="#" class="home-bands-v2-item"><img src="assets/img/home-v2/suzuki.svg" alt="text"></a>
+          <a href="#" class="home-bands-v2-item"><img src="assets/img/home-v2/ford.svg" alt="text"></a>
+          <a href="#" class="home-bands-v2-item"><img src="assets/img/home-v2/Harley.svg" alt="text"></a>
+        </div>
+      </div>
+    </section>
+    <section class="home-promo" style="background-image: url(assets/img/home-v2/image-63.jpg);">
+      <div class="container">
+        <div class="home-promo__inner">
+          <h2>Нехай завжди буде по-вашому</h2>
+          <p>Виберіть свій ідеальний автомобіль із величезного набору опцій</p>
+          <div class="video-btn">
+            <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 11L-9.78799e-07 21.3923L-7.02746e-08 0.607695L18 11Z" fill="white"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="home-numbers">
+      <div class="container">
+        <h2>Автотрейдінг – місце де ви знайдете своє авто.</h2>
+        <p class="home-numbers__subtitle">Мабуть, мало людей у світі, які не захоплюються красою нових блискучих автомобілів.
+          Ми закохані в автомобілі, тому що вони дають нам внутрішнє відчуття свободи.
+          Естетика руху надає нам драйву і жаги до життя.<br><br>
+          Ви маєте можливість відчути все це в наших шоу-румах. Записуйтесь на зустріч
+          з менеджером чи ідразу на тест-драйв.<br><br>
+          Попередня домовленість важлива, для того щоб менеджер міг приділити Вам всю свою увагу.<br><br>
+          Під час консультації менеджер розповість вам усе про автомобілі і допоможе підібрати
+          ідеальне авто саме для вас.</p>
+        <div class="home-numbers__btn"><a href="#" class="btn btn-regular">записатись на тест-драйв</a></div>
+        <div class="home-numbers__items">
+          <div class="home-numbers-item">
+            <div class="home-numbers-item__number">40000+</div>
+            <div class="home-numbers-item__text">задоволених клієнтів</div>
+            <div class="home-numbers-item__behind">great</div>
+          </div>
+          <div class="home-numbers-item">
+            <div class="home-numbers-item__number">13</div>
+            <div class="home-numbers-item__text">років досвіду</div>
+            <div class="home-numbers-item__behind">year</div>
+          </div>
+          <div class="home-numbers-item">
+            <div class="home-numbers-item__number">432</div>
+            <div class="home-numbers-item__text">моделей авто</div>
+            <div class="home-numbers-item__behind">brand</div>
+          </div>
         </div>
       </div>
     </section>
@@ -370,7 +446,35 @@
     </section>
     <section class="home-contacts">
       <h2>Контакти</h2>
-      <div id="homeMap"></div>
+      <div class="home-contacts__map">
+        <div id="homeMap"></div>
+        <div class="home-contacts-b">
+          <div class="home-contacts-b-item">
+            <div class="home-contacts-b-item__row">
+              <div class="home-contacts-b-item__top">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.4687 2.38639C10.4819 2.38639 10.4947 2.38631 10.5078 2.38631C12.4117 2.38631 14.1957 3.1224 15.5346 4.46124C16.8845 5.81112 17.6228 7.61039 17.6137 9.52754C17.6117 9.95899 17.9597 10.3104 18.3912 10.3125C18.3925 10.3125 18.3937 10.3125 18.395 10.3125C18.8247 10.3125 19.1741 9.96516 19.1762 9.53496C19.1873 7.19757 18.2864 5.00335 16.6394 3.35635C15.0053 1.72216 12.8293 0.823802 10.508 0.823802C10.4937 0.823802 10.4794 0.823841 10.4651 0.82388C10.0336 0.82595 9.68549 1.1774 9.68753 1.60884C9.6896 2.03904 10.039 2.38639 10.4687 2.38639Z" fill="white"/>
+                  <path d="M19.9981 16.1154C19.9702 15.3417 19.6479 14.6198 19.0907 14.0825C17.9996 13.0304 17.0855 12.4231 16.2139 12.1712C15.0127 11.824 13.9004 12.1397 12.9076 13.1093C12.9061 13.1108 12.9046 13.1122 12.9031 13.1137L11.8458 14.1631C11.1891 13.7942 9.91257 12.9824 8.51635 11.5861L8.41354 11.4834C7.0265 10.0964 6.20951 8.81258 5.83779 8.1532L6.88619 7.09691C6.88767 7.09542 6.88912 7.09394 6.8906 7.09242C7.86018 6.09968 8.17584 4.98725 7.82873 3.78616C7.57685 2.91455 6.96955 2.00041 5.91743 0.909349C5.38013 0.35212 4.65817 0.0298537 3.88462 0.00196299C3.11121 -0.0258887 2.36774 0.243409 1.7916 0.760598L1.76918 0.780755C1.75875 0.790091 1.74859 0.799739 1.73871 0.809622C0.591831 1.95642 -0.00934337 3.56198 0.000109789 5.45265C0.0161255 8.66438 1.78133 12.3374 4.72196 15.278C4.72442 15.2805 4.72684 15.2828 4.72931 15.2853C5.28212 15.8373 5.90978 16.3835 6.59502 16.909C6.9374 17.1715 7.42779 17.1067 7.69037 16.7644C7.95291 16.4219 7.88818 15.9316 7.54576 15.669C6.91154 15.1828 6.33322 14.6794 5.82685 14.1731C5.82443 14.1706 5.822 14.1682 5.81954 14.1658C3.16778 11.5111 1.5766 8.25152 1.56258 5.44479C1.55531 3.9887 1.99332 2.77334 2.82942 1.92861L2.83539 1.92322C3.40329 1.41353 4.26305 1.44455 4.79274 1.99384C6.81545 4.09143 6.66896 5.08171 5.77521 5.99819L4.327 7.4573C4.09989 7.68613 4.03665 8.03097 4.16782 8.32551C4.20458 8.40809 5.09396 10.3734 7.309 12.5885L7.41182 12.6912C9.62659 14.906 11.5919 15.7953 11.6745 15.8321C11.9691 15.9633 12.3139 15.9001 12.5427 15.673L14.0016 14.225C14.9182 13.3311 15.9085 13.1844 18.0062 15.2072C18.5555 15.7369 18.5865 16.5967 18.0769 17.1644L18.0714 17.1706C17.2335 17.9998 16.0311 18.4375 14.5908 18.4375C14.579 18.4375 14.5671 18.4375 14.5552 18.4374C13.404 18.4317 12.0709 18.1161 10.7001 17.5248C10.304 17.3539 9.84424 17.5366 9.67335 17.9328C9.50245 18.3289 9.6851 18.7887 10.0813 18.9596C11.6657 19.643 13.1684 19.993 14.5474 19.9999C14.562 20 14.5766 20 14.5912 20C16.4629 20 18.0525 19.3993 19.1904 18.2613C19.2003 18.2514 19.2099 18.2413 19.2192 18.2309L19.2395 18.2083C19.7565 17.6323 20.026 16.889 19.9981 16.1154Z" fill="white"/>
+                  <path d="M14.432 5.56831C13.5939 4.73026 12.7896 4.50788 12.4031 4.40096C11.9871 4.28592 11.5569 4.52983 11.4419 4.94573C11.3269 5.36159 11.5707 5.79194 11.9866 5.90694C12.3027 5.99437 12.7804 6.12648 13.3271 6.67316C13.8534 7.19945 13.9932 7.67457 14.0857 7.98898L14.097 8.02722C14.1976 8.36695 14.5087 8.58695 14.8458 8.58695C14.9193 8.58699 14.9939 8.57652 15.0679 8.55461C15.4816 8.43215 15.7178 7.99746 15.5953 7.58375L15.5847 7.54789C15.4642 7.13843 15.2399 6.37624 14.432 5.56831Z" fill="white"/>
+                </svg>
+                <span>Телефон</span>
+              </div>
+              <div class="home-contacts-b-item__text">044 496 33 83</div>
+            </div>
+            <div class="home-contacts-b-item__row">
+              <div class="home-contacts-b-item__top">
+                <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 3.125C5.3102 3.125 3.12188 5.31543 3.12188 8.00781C3.12188 10.7002 5.3102 12.8906 8 12.8906C8.45429 12.8906 8.9044 12.828 9.33785 12.7045C9.75246 12.5864 9.99285 12.1542 9.87488 11.7392C9.75683 11.3243 9.32513 11.0836 8.91049 11.2017C8.61609 11.2856 8.30974 11.3281 8 11.3281C6.17094 11.3281 4.68288 9.83863 4.68288 8.00781C4.68288 6.17699 6.17094 4.6875 8 4.6875C9.82906 4.6875 11.3171 6.17699 11.3171 8.00781C11.3171 8.33355 11.2703 8.65508 11.1779 8.9634C11.0541 9.37668 11.2884 9.81219 11.7013 9.93613C12.1142 10.06 12.5493 9.82555 12.6731 9.41223C12.8091 8.9582 12.8781 8.4857 12.8781 8.00781C12.8781 5.31543 10.6898 3.125 8 3.125Z" fill="white"/>
+                  <path d="M13.6538 2.34234C12.1432 0.831875 10.1353 0 8 0C5.86471 0 3.85684 0.831875 2.34618 2.34238C0.835681 3.85277 0.00245857 5.86144 0 8.00012C0.00152197 9.55695 0.433528 11.0176 1.32064 12.4655C2.08885 13.7193 3.08684 14.8133 4.1434 15.9715C5.17939 17.1071 6.25059 18.2814 7.10609 19.6362C7.24912 19.8627 7.49818 20 7.76585 20H8.23415C8.50182 20 8.75088 19.8627 8.89391 19.6361C9.74941 18.2814 10.8206 17.1071 11.8566 15.9715C12.9132 14.8133 13.9111 13.7193 14.6794 12.4655C15.5665 11.0175 15.9985 9.55688 16 7.9984C15.9976 5.86141 15.1643 3.85273 13.6538 2.34234ZM10.7039 14.9179C9.78274 15.9277 8.83494 16.9666 8 18.1616C7.1651 16.9666 6.21726 15.9277 5.29612 14.9179C3.29339 12.7226 1.56373 10.8266 1.561 8.00023C1.56506 4.45047 4.45361 1.5625 8 1.5625C11.5464 1.5625 14.4349 4.45047 14.439 7.99855C14.4363 10.8266 12.7066 12.7225 10.7039 14.9179Z" fill="white"/>
+                </svg>
+                <span>Адреса</span>
+              </div>
+              <div class="home-contacts-b-item__text">Київ, проспект Перемоги, 67</div>
+            </div>
+          </div>
+          <a href="#" class="btn home-contacts-b__btn">Прокласти маршрут</a>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="footer">
@@ -447,6 +551,274 @@
     </div>
   </footer>
 </div>
+<div class="modal">
+  <div class="modal-window" id="m-feedback">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Написати відгук</div>
+      <div class="modal-window__text-1">Поділіться думкою про нашу роботу або задайте нам будь-яке питання, що Вас
+        цікавить в поле коментар
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="q3" id="q3" class="inp-modal-window" value="Шевченко Андрій Євгенійович" required>
+          <label for="q3" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="q2" id="q2" class="inp-modal-window" required>
+          <label for="q2" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="q1" id="q1" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="q1" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <textarea name="q4" id="q4" class="txt-modal-window" required></textarea>
+          <label for="q4" class="label-modal-window">Текст повідомлення</label>
+        </div>
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="q0" id="q0" class="inp-checkbox" required>
+        <label for="q0" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати повідомлення</button>
+    </form>
+  </div>
+  <div class="modal-window" id="m-callback">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Зворотній зв’язок</div>
+      <div class="modal-window__text-1">Задайте нам будь-яке питання, що Вас цікавить в поле текст повідомлення і ми відповімо
+        найближчим часом
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="q3q" id="q3q" class="inp-modal-window" value="Шевченко Андрій Євгенійович" required>
+          <label for="q3q" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="q2q" id="q2q" class="inp-modal-window" required>
+          <label for="q2q" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="q1q" id="q1q" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="q1q" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="q45" id="q45" required>
+              <option selected></option>
+              <option value="1">Харків</option>
+              <option value="2">Київ</option>
+              <option value="3">Одеса</option>
+              <option value="4">Дніпро</option>
+              <option value="5">Вінниця</option>
+            </select>
+            <label for="q45" class="label-modal-window">Місто*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <textarea name="q4q" id="q4q" class="txt-modal-window" required></textarea>
+          <label for="q4" class="label-modal-window">Текст повідомлення</label>
+        </div>
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="q0q" id="q0q" class="inp-checkbox" required>
+        <label for="q0q" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати повідомлення</button>
+    </form>
+  </div>
+  <div class="modal-window" id="m-service">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Записатися на ТО і сервіс онлайн</div>
+      <div class="modal-window__text-1">Ви бажаєте записатися на сервіс?<br>
+        Просто введіть свої дані, і ми якнайшвидше надамо відповідь.
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="e22" id="e22" class="inp-modal-window" required>
+          <label for="e22" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="e11" id="e11" class="inp-modal-window" required>
+          <label for="e11" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="e2" id="e2" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="e2" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="e3" id="e3" required>
+              <option selected></option>
+              <option value="1">Харків</option>
+              <option value="2">Київ</option>
+              <option value="3">Одеса</option>
+              <option value="4">Дніпро</option>
+              <option value="5">Вінниця</option>
+            </select>
+            <label for="e3" class="label-modal-window">Місто*</label>
+          </div>
+        </div>
+        <div class="modal-window__bold-3">Будь ласка, вкажіть дані Вашого авто:</div>
+        <div class="modal-window-field">
+          <input type="text" name="e33" id="e33" class="inp-modal-window" required>
+          <label for="e33" class="label-modal-window">Державний номер автомобіля*</label>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="e3q" id="e3q" required>
+              <option selected></option>
+              <option value="1">Бренд 1</option>
+              <option value="2">Бренд 2</option>
+              <option value="3">Бренд 3</option>
+              <option value="4">Бренд 4</option>
+              <option value="5">Бренд 5</option>
+            </select>
+            <label for="e3q" class="label-modal-window">Бренд*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <input type="text" name="n5" id="n5" class="inp-modal-window" required>
+          <label for="n5" class="label-modal-window">Модель*</label>
+        </div>
+
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="e1" id="e1" class="inp-checkbox" required>
+        <label for="e1" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати заявку</button>
+    </form>
+  </div>
+  <div class="modal-window" id="m-Test">
+    <div class="modal-window__close">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 1L1 21" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L1 1" stroke="#7E848C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <form action="" method="get" class="modal-window__form">
+      <div class="modal-window__title">Записатися на тест-драйв онлайн</div>
+      <div class="modal-window__text-1">Ви бажаєте записатися на тест-драйв?<br>
+        Просто введіть свої дані, і ми якнайшвидше надамо відповідь.
+      </div>
+      <div class="modal-window__bold-1">Будь ласка, вкажіть Ваші контактні дані</div>
+      <div class="modal-window__fields">
+        <div class="modal-window-field">
+          <input type="text" name="s1" id="s1" class="inp-modal-window" required>
+          <label for="s1" class="label-modal-window">ПІБ*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="tel" name="s2" id="s2" class="inp-modal-window" required>
+          <label for="s2" class="label-modal-window">Телефон*</label>
+        </div>
+        <div class="modal-window-field">
+          <input type="email" name="s3" id="s3" class="inp-modal-window inp-modal-window__error" value="E-mail.com" required>
+          <label for="s3" class="label-modal-window">E-mail*</label>
+          <div class="inp-modal-window__error-text">Будь ласка, введіть коректну адресу електронної пошти</div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="w5" id="w5" required>
+              <option selected></option>
+              <option value="1">Харків</option>
+              <option value="2">Київ</option>
+              <option value="3">Одеса</option>
+              <option value="4">Дніпро</option>
+              <option value="5">Вінниця</option>
+            </select>
+            <label for="w5" class="label-modal-window">Місто*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="ww5" id="ww5" required>
+              <option selected></option>
+              <option value="1">Фаворит-Авто, вул. Гольдбергівська, 044</option>
+              <option value="2">Фаворит-Авто, вул. Гольдбергівська, 144</option>
+              <option value="3">Фаворит-Авто, вул. Гольдбергівська, 444</option>
+              <option value="4">Фаворит-Авто, вул. Гольдбергівська, 4</option>
+              <option value="5">Фаворит-Авто, вул. Гольдбергівська, 2544</option>
+            </select>
+            <label for="ww5" class="label-modal-window">Адреса*</label>
+          </div>
+        </div>
+        <div class="modal-window__bold-3">Будь ласка, вкажіть дані Вашого авто:</div>
+        <div class="modal-window-field">
+          <div class="custom-select">
+            <select name="r2" id="r2" required>
+              <option selected></option>
+              <option value="1">Бренд 1</option>
+              <option value="2">Бренд 2</option>
+              <option value="3">Бренд 3</option>
+              <option value="4">Бренд 4</option>
+              <option value="5">Бренд 5</option>
+            </select>
+            <label for="r2" class="label-modal-window">Бренд*</label>
+          </div>
+        </div>
+        <div class="modal-window-field">
+          <input type="text" name="r3" id="r3" class="inp-modal-window" required>
+          <label for="r3" class="label-modal-window">Модель*</label>
+        </div>
+
+      </div>
+      <div class="modal-window-confirm__text">Підтвердіть, що Ви людина</div>
+      <div class="modal-window-confirm__captcha"><img src="assets/img/home/captcha%201.jpg" alt="text"></div>
+      <div class="modal-window-agreement">
+        <input type="checkbox" name="r4" id="r4" class="inp-checkbox" required>
+        <label for="r4" class="label-checkbox">Даю згоду на <a href="#" target="_blank">обробку персональних даних</a></label>
+      </div>
+      <div class="modal-window__text-2">Прохання повністю та вірно заповнювати усі поля задля достовірного опрацювання
+        Вашого запиту
+      </div>
+      <div class="modal-window__bold-2">*Обов’язкові поля</div>
+      <button class="btn btn-regular" type="submit">надіслати заявку</button>
+    </form>
+  </div>
+</div>
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="assets/libs/slick/slick.min.js"></script>
 <script src="assets/js/custom.js"></script>
@@ -460,84 +832,190 @@
       center: {lat: 40.674, lng: -73.945},
       zoom: 12,
       styles: [
-        {elementType: "geometry", stylers: [{color: "#242f3e"}]},
-        {elementType: "labels.text.stroke", stylers: [{color: "#242f3e"}]},
-        {elementType: "labels.text.fill", stylers: [{color: "#746855"}]},
         {
-          featureType: "administrative.locality",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#d59563"}],
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#212121"
+            }
+          ]
         },
         {
-          featureType: "poi",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#d59563"}],
+          "elementType": "labels.icon",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
         },
         {
-          featureType: "poi.park",
-          elementType: "geometry",
-          stylers: [{color: "#263c3f"}],
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#757575"
+            }
+          ]
         },
         {
-          featureType: "poi.park",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#6b9a76"}],
+          "elementType": "labels.text.stroke",
+          "stylers": [
+            {
+              "color": "#212121"
+            }
+          ]
         },
         {
-          featureType: "road",
-          elementType: "geometry",
-          stylers: [{color: "#38414e"}],
+          "featureType": "administrative",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#757575"
+            }
+          ]
         },
         {
-          featureType: "road",
-          elementType: "geometry.stroke",
-          stylers: [{color: "#212a37"}],
+          "featureType": "administrative.country",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#9e9e9e"
+            }
+          ]
         },
         {
-          featureType: "road",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#9ca5b3"}],
+          "featureType": "administrative.land_parcel",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
         },
         {
-          featureType: "road.highway",
-          elementType: "geometry",
-          stylers: [{color: "#746855"}],
+          "featureType": "administrative.locality",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#bdbdbd"
+            }
+          ]
         },
         {
-          featureType: "road.highway",
-          elementType: "geometry.stroke",
-          stylers: [{color: "#1f2835"}],
+          "featureType": "poi",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#757575"
+            }
+          ]
         },
         {
-          featureType: "road.highway",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#f3d19c"}],
+          "featureType": "poi.park",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#181818"
+            }
+          ]
         },
         {
-          featureType: "transit",
-          elementType: "geometry",
-          stylers: [{color: "#2f3948"}],
+          "featureType": "poi.park",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#616161"
+            }
+          ]
         },
         {
-          featureType: "transit.station",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#d59563"}],
+          "featureType": "poi.park",
+          "elementType": "labels.text.stroke",
+          "stylers": [
+            {
+              "color": "#1b1b1b"
+            }
+          ]
         },
         {
-          featureType: "water",
-          elementType: "geometry",
-          stylers: [{color: "#17263c"}],
+          "featureType": "road",
+          "elementType": "geometry.fill",
+          "stylers": [
+            {
+              "color": "#2c2c2c"
+            }
+          ]
         },
         {
-          featureType: "water",
-          elementType: "labels.text.fill",
-          stylers: [{color: "#515c6d"}],
+          "featureType": "road",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#8a8a8a"
+            }
+          ]
         },
         {
-          featureType: "water",
-          elementType: "labels.text.stroke",
-          stylers: [{color: "#17263c"}],
+          "featureType": "road.arterial",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#373737"
+            }
+          ]
         },
+        {
+          "featureType": "road.highway",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#3c3c3c"
+            }
+          ]
+        },
+        {
+          "featureType": "road.highway.controlled_access",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#4e4e4e"
+            }
+          ]
+        },
+        {
+          "featureType": "road.local",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#616161"
+            }
+          ]
+        },
+        {
+          "featureType": "transit",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#757575"
+            }
+          ]
+        },
+        {
+          "featureType": "water",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#000000"
+            }
+          ]
+        },
+        {
+          "featureType": "water",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#3d3d3d"
+            }
+          ]
+        }
       ],
     });
   }

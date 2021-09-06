@@ -832,6 +832,9 @@
     .contacts-page__block{
         margin-top: 20px;
     }
+    .contacts-map-b{
+        width: 90%;
+    }
     /*ERROR*/
     .error-page{
         padding: 186px 0 50px 0;
@@ -858,5 +861,49 @@
     }
     .error-page__number svg{
         height: 138px;
+    }
+    /*-- HOME V2 ---*/
+    .home-top--v2 {
+        padding-bottom: 90px;
+        background: transparent url(../img/home-v2/top.png) center center no-repeat;
+        background-size: contain;
+    }
+    .home-top-form{
+        position: static;
+        margin-top: 60px;
+    }
+    .home-bands-v2{
+        margin-top: 60px;
+    }
+    .home-bands-v2-item{
+        margin: 15px 0;
+    }
+    .home-promo{
+        padding: 90px 0;
+    }
+    .home-numbers{
+        padding: 90px 0 50px 0;
+    }
+    .home-numbers__items{
+        flex-direction: column;
+    }
+    .home-numbers-item:not(:last-child){
+        margin-bottom: 60px;
+    }
+    .home-feedbacks{
+        padding-top: 90px;
+    }
+    .home-feedbacks-slide{
+        padding: 30px;
+    }
+    .home-services-v2{
+        padding-top: 90px;
+    }
+    .home-services-v2-item{
+        height: auto;
+        padding: 30px 0;
+    }
+    .home-contacts-b{
+        width: 90%;
     }
 }
