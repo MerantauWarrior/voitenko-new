@@ -596,30 +596,30 @@
     max-width: 500px;
     margin-top: 237px;
 }
-.home-top__line{
-    position: relative;
-    width: 8px;
-    height: 1px;
-    margin-bottom: 20px;
-    background-color: #C4C4C4;
-}
-.home-top__line:before,
-.home-top__line:after{
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 1px;
-    margin-left: 5px;
-    background-color: #C4C4C4;
-}
-.home-top__line:before{
-    left: 8px;
-    width: 22px;
-}
-.home-top__line:after{
-    left: 35px;
-    width: 60px;
-}
+/*.home-top__line{*/
+/*    position: relative;*/
+/*    width: 8px;*/
+/*    height: 1px;*/
+/*    margin-bottom: 20px;*/
+/*    background-color: #C4C4C4;*/
+/*}*/
+/*.home-top__line:before,*/
+/*.home-top__line:after{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    height: 1px;*/
+/*    margin-left: 5px;*/
+/*    background-color: #C4C4C4;*/
+/*}*/
+/*.home-top__line:before{*/
+/*    left: 8px;*/
+/*    width: 22px;*/
+/*}*/
+/*.home-top__line:after{*/
+/*    left: 35px;*/
+/*    width: 60px;*/
+/*}*/
 .home-top__btn{
     width: 100%;
     max-width: 300px;

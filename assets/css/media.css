@@ -247,9 +247,9 @@
     .home-top__content{
         margin-top: 117px;
     }
-    .home-top__line{
-        margin-bottom: 15px;
-    }
+    /*.home-top__line{*/
+    /*    margin-bottom: 15px;*/
+    /*}*/
     h1{
         font-size: 32px;
         line-height: 42px;
