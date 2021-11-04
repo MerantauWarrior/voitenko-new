@@ -2036,7 +2036,23 @@
     background: #010202 url('../img/home-v2/BG.jpg') top center no-repeat;
 }
 .home-top--v2{
-    background: transparent url('../img/home-v2/top.png') 80% 40% no-repeat;
+    background-color: transparent;
+    background-position: 80% 40%;
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+.home-top__slider{
+    margin-top: 237px;
+}
+.home-top--v2 .slick-dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -128px;
+    z-index: 9;
+}
+.home-top__slider .home-top__content{
+    margin-top: 0;
 }
 .home-top-form{
     position: absolute;

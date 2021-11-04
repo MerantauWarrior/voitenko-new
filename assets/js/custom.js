@@ -143,6 +143,23 @@ $(document).ready(function () {
       ]
     });
   }
+  if($('.home-top__slider').length > 0){
+    $('.home-top__slider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+    $('.home-top__slider').on('afterChange', function(event, slick, currentSlide){
+      var imgs = [
+        'url("assets/img/home-v2/top.png")',
+        'url("assets/img/home/top-bg.jpg")',
+        'url("assets/img/home-v2/top.png")'
+      ]
+      $('.home-top--v2').css('background-image',imgs[currentSlide]);
+    });
+  }
 
 
   if($('.filter').length > 0){
