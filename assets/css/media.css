@@ -865,12 +865,22 @@
     /*-- HOME V2 ---*/
     .home-top--v2 {
         padding-bottom: 90px;
-        background: transparent url(../img/home-v2/top.png) center center no-repeat;
+        background-position: 0 35%;
+        background-repeat: no-repeat;
         background-size: contain;
+    }
+    .home-top__slider{
+        margin-top: 117px;
+    }
+    .home-top--v2 .slick-dots{
+        position: static;
+        margin-top: 300px;
     }
     .home-top-form{
         position: static;
         margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .home-bands-v2{
         margin-top: 60px;
