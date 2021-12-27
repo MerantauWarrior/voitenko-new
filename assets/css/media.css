@@ -891,6 +891,12 @@
     .home-promo{
         padding: 90px 0;
     }
+    .bg-grad-redundant{
+        background: #010202;
+    }
+    .home-shares--v2{
+        background-image: none;
+    }
     .home-numbers{
         padding: 90px 0 50px 0;
     }

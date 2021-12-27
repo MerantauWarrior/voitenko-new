@@ -2149,9 +2149,12 @@
 .home-promo h2{
     margin-bottom: 30px;
 }
+.bg-grad-redundant{
+    background: #010202 url('../img/home-v2/bg-grad.png') center -200px no-repeat;
+}
 .home-numbers{
     padding: 170px 0 56px 0;
-    background-color: #010202;
+    /*background-color: #010202;*/
     color: #FFFFFF;
 }
 .home-numbers__subtitle{
@@ -2207,7 +2210,7 @@
 }
 .home-feedbacks{
     padding-top: 114px;
-    background-color: #010202;
+    /*background-color: #010202;*/
     color: #FFFFFF;
 }
 .home-feedbacks-slider__wrapper{
@@ -2266,7 +2269,7 @@
 }
 .home-services-v2{
     padding-top: 120px;
-    background-color: #010202;
+    /*background-color: #010202;*/
     color: #FFFFFF;
 }
 .home-services-v2__items{
@@ -2324,6 +2327,9 @@
 }
 .home-shares--v2{
     padding: 140px 0 45px 0;
+    background-image: url('../img/home-v2/traffic-light-trails-urban-street 1.png');
+    background-position: center top;
+    background-repeat: no-repeat;
     background-color: #010202;
     color: #FFFFFF;
 }
